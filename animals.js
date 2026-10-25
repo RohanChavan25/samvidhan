@@ -103,18 +103,6 @@ function petPop(kind, html, ms = 4800) {
 }
 document.addEventListener('click', e => { if (e.target.closest('.pet-x')) document.getElementById('pet').classList.remove('on'); });
 
-// ── animal parade between chapters (the page-turn stays) ──
-let lastH = location.hash;
-window.addEventListener('hashchange', () => {
-  const h = location.hash.slice(1), prev = lastH.slice(1); lastH = location.hash;
-  const isCh = x => DB.modules.some(m => m.id === x);
-  if (RMo() || !isCh(h) || h === prev) return;
-  const back = isCh(prev) && DB.modules.findIndex(m => m.id === h) < DB.modules.findIndex(m => m.id === prev);
-  const p = document.createElement('div'); p.className = 'parade' + (back ? ' back' : '');
-  p.innerHTML = ANIMALS[pick(['elephant', 'peacock', 'tortoise', 'lion'])]();
-  document.body.appendChild(p); setTimeout(() => p.remove(), 2600);
-});
-
 // ── things that appear as you scroll, a tip half-way down, a cheer at the end ──
 const DYK = () => DB.opening.trivia;
 let dykI = Math.floor(Math.random() * 50), pageFlags = {};
@@ -137,7 +125,6 @@ function decorate() {
   kids.forEach((el, i) => { if (!RMo() && el.getBoundingClientRect().top > innerHeight * .9) { el.classList.add('rv'); el.style.setProperty('--d', `${(i % 3) * 70}ms`); io.observe(el); } });
   const top = [...document.querySelectorAll('#app .wrap > *')]; if (top.length > 6) { const mid = top[Math.floor(top.length / 2)]; mid.classList.add('tipmark'); io.observe(mid); }
   const end = document.querySelector('#app .endcard'); if (end) io.observe(end);
-  const hello = document.querySelector('.kidhello img'); if (hello) hello.outerHTML = ANIMALS.parrot();
 }
 new MutationObserver(decorate).observe(document.getElementById('app'), { childList: true });
 
@@ -147,7 +134,6 @@ document.addEventListener('click', e => {
   setTimeout(() => {
     const right = t.dataset.mark !== undefined ? t.dataset.mark === '1' : (run && run.qs[run.i] && run.qs[run.i].opts[run.picked] === run.qs[run.i].a);
     petPop(right ? 'lion' : 'tortoise', right ? `<b>${T('Roar-some!')}</b> ${T('That’s right.')}` : `<b>${T('Slow and steady!')}</b> ${T('You will get the next one.')}`, 2400);
-    if (right && !RMo()) confetti();
   }, 60);
 });
 function confetti() {
@@ -156,17 +142,7 @@ function confetti() {
   document.body.appendChild(c); setTimeout(() => c.remove(), 1800);
 }
 
-// ── friends on the first screens ──
-const _showChooser = window.showChooser;
-window.showChooser = function (first) {
-  _showChooser(first);
-  const who = { 1: 'parrot', 2: 'elephant', 3: 'owl' };
-  document.querySelectorAll('.lvcard').forEach(c => c.insertAdjacentHTML('afterbegin', `<span class="lv-pet">${ANIMALS[who[c.dataset.setlevel]]()}</span>`));
-};
-const _showOpening2 = window.showOpening;
-window.showOpening = function () {
-  _showOpening2();
-  const st = document.querySelector('#book'); if (st && LEVEL !== 3) st.insertAdjacentHTML('beforeend', `<div class="stage-pet">${ANIMALS.parrot()}<span>${T('Tap the book to open it!')}</span></div>`);
-};
-if (!document.getElementById('open').hidden) { if (document.querySelector('.chooser')) showChooser(document.querySelector('.chooser').dataset.first === '1'); else if (document.querySelector('#book')) { document.querySelector('#book').insertAdjacentHTML('beforeend', `<div class="stage-pet">${ANIMALS.parrot()}<span>${T('Tap the book to open it!')}</span></div>`); } }
+// full marks: a short burst of tricolour confetti with the lion
+new MutationObserver(() => { const d = document.querySelector('#app .done b'); if (d && !d.dataset.cheered) { d.dataset.cheered = 1; const [a, b] = d.textContent.split('/').map(Number);
+  if (a === b && b > 0) { if (!RMo()) confetti(); petPop('lion', `<b>${T('Roar-some!')}</b> ${T('Full marks.')}`, 3500); } } }).observe(document.getElementById('app'), { childList: true });
 decorate();

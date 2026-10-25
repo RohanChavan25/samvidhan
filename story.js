@@ -59,19 +59,25 @@ function coverSVG() {
 
 // ── 1. The opening book ──
 window.showOpening = function () {
-  const L = DB.opening.lenses, B = DB.book;
-  const front = `<div class="leaf page frontis" style="z-index:${L.length + 2}"><img class="fr-art" src="${esc(B.frontis)}" alt="">
-      <div class="fr-in"><span lang="hi" class="fr-hi">${esc(B.cover.hi)}</span><b>${esc(B.cover.title)}</b><small>${esc(B.cover.sub)}</small><em>${T('For every student')}</em><span class="fr-tap">${T('Tap to turn the page')}</span></div></div>`;
-  const pages = L.map((l, i) => `<div class="leaf page" style="z-index:${L.length - i + 1}"><div class="pg">
-      <img class="pg-art illus" src="${esc(l.art)}" alt=""><h2>${esc(l.label)}</h2><p>${esc(l.body)}</p>${srcLine(l.src)}<span class="folio">${i + 1}</span></div></div>`).join('');
-  const contents = `<div class="leaf page last" style="z-index:1"><div class="pg">
-      <p class="eyebrow">${T('Contents · विषय-सूची')}</p>
-      <ol class="toc">${DB.modules.map((m, i) => `<li><button data-chapter="${m.id}"><img class="blot" src="${esc(B.chapterArt[m.id])}" alt=""><span><b>${i + 1}. ${esc(m.title)}</b>${hiTxt(m.hi)}</span></button></li>`).join('')}</ol>
-      <div class="dyk"><b>${T('Did you know?')}</b><span>${esc(DB.opening.trivia[0].text)}</span></div></div></div>`;
+  const L = DB.opening.lenses, B = DB.book, N = L.length;
+  const run = `<span class="runhead">${esc(B.cover.title)}</span>`;
+  const note = srcs => { const h = srcLine(srcs); return h ? `<div class="pg-notes">${h}</div>` : ''; };
+  // frontispiece: title page; the note about the cover drawing sits at its foot, like a printer's note
+  const front = `<div class="leaf page frontis" style="z-index:${N + 2}"><img class="fr-art" src="${esc(B.frontis)}" alt="">
+      <div class="fr-in"><span lang="hi" class="fr-hi">${esc(B.cover.hi)}</span><b>${esc(B.cover.title)}</b><small>${esc(B.cover.sub)}</small><span class="fr-tap">${T('Tap to turn the page')}</span>
+      <a class="fr-note" href="${esc(B.coverSrc)}" target="_blank" rel="noopener">${esc(B.coverNote)}</a></div></div>`;
+  // story pages: running head, picture, heading, text in a reading size; sources as footnotes at the foot; page number
+  const pages = L.map((l, i) => `<div class="leaf page" style="z-index:${N - i + 1}"><div class="pg">${run}
+      <figure class="pg-fig"><img src="${esc(l.art)}" alt=""></figure>
+      ${l.label ? `<h2>${esc(l.label)}</h2>` : ''}<p class="pg-body${l.label ? '' : ' big'}">${esc(l.body)}</p>
+      ${note(l.src)}<span class="folio">${i + 1}</span></div></div>`).join('');
+  const contents = `<div class="leaf page last" style="z-index:1"><div class="pg toc-pg">${run}
+      <h2 class="toc-h">${T('Contents')}</h2>
+      <ol class="toc">${DB.modules.map((m, i) => `<li><button data-chapter="${m.id}"><span class="toc-n">${i + 1}</span><span class="toc-t"><b>${esc(m.title)}</b>${hiTxt(m.hi)}</span></button></li>`).join('')}</ol>
+      <span class="folio">${N + 1}</span></div></div>`;
   $('#open').innerHTML = `<div class="stage">
-    <div class="book" id="book"><div class="leaf cover" style="z-index:${L.length + 3}">${coverSVG()}</div>${front}${pages}${contents}</div>
-    <div class="bookctl"><button class="btn s" data-turn>${T('Open the book')}</button><button class="btn ghost" data-skipbook>${T('Skip to contents')}</button>${langBtn()}</div>
-    <p class="bookhint"><a href="${esc(B.coverSrc)}" target="_blank" rel="noopener">${esc(B.coverNote)}</a></p></div>`;
+    <div class="book closed" id="book"><div class="leftpage" aria-hidden="true"><img alt=""></div><div class="leaf cover" style="z-index:${N + 3}">${coverSVG()}</div>${front}${pages}${contents}</div>
+    <div class="bookctl"><button class="btn s" data-turn>${T('Open the book')}</button><button class="btn ghost" data-skipbook>${T('Skip to contents')}</button>${langBtn()}</div></div>`;
   $('#open').hidden = false; book.i = 0;
 };
 const book = { i: 0, x: null };
@@ -81,12 +87,21 @@ function setTurnBtn(leaves) {
   b.textContent = T(last ? 'Start learning' : book.i === 0 ? 'Open the book' : 'Turn the page →');
   if (last) { b.dataset.done = '1'; if (k) k.hidden = true; }
 }
+// On wide screens the open book shows two pages: the picture on the left page, the words on the right.
+function syncSpread() {
+  const b = document.getElementById('book'); if (!b) return;
+  const L = DB.opening.lenses, i = book.i, img = b.querySelector('.leftpage img');
+  b.classList.toggle('closed', i === 0);
+  const src = i === 1 ? DB.book.frontis : i >= 2 && i < L.length + 2 ? L[i - 2].art : 'scene/book-2.webp';
+  if (img && img.getAttribute('src') !== src) img.src = src;
+  b.querySelector('.leftpage').classList.toggle('endpaper', i === 1);
+}
 function turnPage() {
   const leaves = [...document.querySelectorAll('#book .leaf')];
   if (book.i >= leaves.length - 1) return;
-  leaves[book.i].classList.add('turned'); book.i++; setTurnBtn(leaves);
+  leaves[book.i].classList.add('turned'); book.i++; setTurnBtn(leaves); syncSpread();
 }
-function skipBook() { const leaves = [...document.querySelectorAll('#book .leaf')]; leaves.slice(0, -1).forEach(l => l.classList.add('turned')); book.i = leaves.length - 1; setTurnBtn(leaves); }
+function skipBook() { const leaves = [...document.querySelectorAll('#book .leaf')]; leaves.slice(0, -1).forEach(l => l.classList.add('turned')); book.i = leaves.length - 1; setTurnBtn(leaves); syncSpread(); }
 function goChapter(id) { enter(); location.hash = id; }
 
 // ── 2. Home = the contents page ──

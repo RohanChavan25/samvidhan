@@ -2,7 +2,7 @@
 
 A free, fact-checked learning website about how India's Constitution was made, what the Preamble promises, our Fundamental Rights and the people behind them.
 
-- **Three age levels**, chosen on the first screen: Below 10 (picture stories and a picture quiz), 10 to 14 (the full illustrated course) and 14 and above (everything, plus big ideas, questions to think about and where sources disagree).
+- **Opens like a book.** The first screen is a hand-drawn Constitution; on laptops and sideways tablets it opens as a two-page spread. After the book, readers pick an age level: Below 10 (picture stories and a picture quiz), 10 to 14 (the full illustrated course) and 14 and above (everything, plus big ideas, questions to think about and where sources disagree).
 - **English and हिंदी**, switched with one button. Numbers, dates and direct quotes are identical in both.
 - **Works on phone, tablet and laptop.** No app, no login, no internet needed once the files are on your device (fonts load from Google if online).
 - **Every fact names its source**: the Constituent Assembly Debates, the official text of the Constitution, Lok Sabha, PIB and other official records. Secondary sources are marked.
