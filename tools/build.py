@@ -39,5 +39,15 @@ for en, h in hi['strings'].items():
     for n in re.findall(r'\d+(?:[.,]\d+)*', en):
         if n not in h:
             print('NUMBER NOT IN HINDI', n, '|', en[:70]); problems += 1
+# ── share preview: put the real site link into the og: tags ──
+import json as _j, re as _re
+_u = _j.load(open(ROOT_SITE_JSON := __import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), '..', 'data', 'site.json'), encoding='utf8'))['site_url'].rstrip('/') + '/'
+_ix = __import__('os').path.join(__import__('os').path.dirname(ROOT_SITE_JSON), '..', 'index.html')
+_h = open(_ix, encoding='utf8').read()
+_h = _re.sub(r'(<meta property="og:url" content=")[^"]*', lambda m: m.group(1) + _u, _h)
+_h = _re.sub(r'((?:og|twitter):image" content=")[^"]*', lambda m: m.group(1) + _u + 'og-image.jpg', _h)
+open(_ix, 'w', encoding='utf8').write(_h)
+if 'YOUR-USERNAME' in _u: print('Share preview: put your GitHub Pages link in data/site.json so the picture shows when the link is shared.')
+
 print(f"data.js and i18n.js rebuilt. {len(paths)} pictures referenced, {len(H)} Hindi lines. Problems: {problems}")
 sys.exit(1 if problems else 0)

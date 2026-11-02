@@ -77,3 +77,10 @@ docs/          how it was built, the fact review, Hindi review sheet, picture li
 - The site remembers the language, age group and quiz scores **on each device** (browser storage). Nothing is sent anywhere.
 - Animations switch off automatically if the device is set to "reduce motion".
 - The Hindi follows the official Hindi text of the Constitution (उद्देशिका, समता, बंधुता …). A native-speaker review sheet is in `docs/Hindi_Review.csv`.
+
+## 6. Picture when you share the link
+
+When the link is shared on WhatsApp, Facebook, LinkedIn, X or Telegram, a preview card shows `og-image.jpg` with the title.
+1. After GitHub Pages gives you your link, open `data/site.json` and replace `https://YOUR-USERNAME.github.io/samvidhan/` with it (keep the `/` at the end).
+2. Run `python tools/build.py`, then upload `index.html`, `og-image.jpg` and `data/site.json` to GitHub.
+3. Check it at [opengraph.xyz](https://www.opengraph.xyz/) by pasting your link. WhatsApp remembers old previews for a while; adding `?v=2` to the end of the link forces a fresh one.
