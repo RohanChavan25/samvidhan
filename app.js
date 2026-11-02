@@ -11,7 +11,7 @@ const PRE = Object.fromEntries(DB.preamble.map(c => [c.id, c]));
 const EV_MOD = {};
 DB.modules.forEach(m => m.sections.forEach(s => { if (s.type === 'events') s.ref.forEach(id => EV_MOD[id] = m.id); }));
 
-const MOD_TOPICS = { m1: ['road'], m2: ['assembly', 'symbols'], m3: ['writing'], m4: ['preamble'], m5: ['rights'], m6: ['book', 'numbers'], m7: ['people'], m8: null };
+const MOD_TOPICS = { m1: ['road'], m2: ['assembly', 'symbols'], m3: ['writing'], m4: ['preamble'], m5: ['rights'], m6: ['book', 'numbers'], m7: ['people'], m9: ['structure'], m8: null };
 const MOD_ART = DB.book.hero;
 const GROUP_LABEL = { big4: T('The big four'), makers10: T('The 10 Makers'), women15: T('The 15 women members'), officers: T('Officers, advisers and other leaders') };
 const FIELDS = ([['born', 'Born', ''], ['died', 'Died', ''], ['education', 'Education / profession', ''], ['entry', 'Entry into the freedom struggle / public life', ''],
@@ -193,7 +193,29 @@ function renderSection(s) {
   if (t === 'firsts') return `<h2 class="sec">${T('Later “firsts”')}</h2><ul class="cast">${DB.firsts.map(f => `<li class="panel"><strong>${esc(f.title)}</strong><span><button class="linkbtn" data-person="${f.person}">${esc(pname(f.person))}</button>${f.detail ? ' · ' + esc(f.detail) : ''}</span></li>`).join('')}</ul>`;
   if (t === 'connects') return `<h2 class="sec">${T('Find the connection')}</h2><div class="conn">${DB.connects.map(c => `<details class="panel"><summary>${c.items.map(x => esc(P[x] ? pname(x) : x)).join(' · ')}</summary><p>${T('Link: ')}${esc(c.link)}</p></details>`).join('')}</div>`;
   if (t === 'traps') return `<h2 class="sec">${T('Quiz traps')}</h2><ul class="traps">${DB.traps.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
+  if (t === 'structure') return renderStructure(r);
   if (t === 'quiz') return `<div class="cta"><a class="btn s" href="#practice-m8">${T('Mixed practice · 10 questions')}</a><a class="btn ghost" href="#cards">${T('Who am I? cards')}</a></div>`;
+  return '';
+}
+
+// ── Module: how the book is built (Parts, Articles, Schedules) ──
+function renderStructure(r) {
+  const S = DB.structure, deep = typeof LEVEL !== 'undefined' && LEVEL === 3, tx = o => deep ? o.s : o.m;
+  const art = n => `${T('Article')} ${esc(n)}`;
+  if (r === 'concepts') return `<h2 class="sec">${T('Words to know')}</h2><div class="dgrid">${S.concepts.map(c => `<div class="panel dcard stc">${c.img ? `<img class="illus" src="${esc(c.img)}" alt="" loading="lazy">` : ''}<div><b>${esc(c.term)} ${hiTxt(c.hi)}</b><span>${esc(tx(c))}</span></div></div>`).join('')}</div>${srcLine(['st-S4'])}`;
+  if (r === 'overview') {
+    const o = S.overview, a = o.in_1950, b = o.today;
+    return `<h2 class="sec">${T('Then and now')}</h2>${o.img ? `<img class="illus st-ov" src="${esc(o.img)}" alt="" loading="lazy">` : ''}<div class="nums">
+      <div class="panel numc"><b>${a.articles}</b><span>${T('Articles in 1950')}</span></div><div class="panel numc"><b>${a.parts}</b><span>${T('Parts in 1950')}</span></div>
+      <div class="panel numc"><b>${a.schedules}</b><span>${T('Schedules in 1950')}</span></div><div class="panel numc"><b>${b.schedules}</b><span>${T('Schedules today')}</span></div></div>
+      <ul class="rows panel card stnotes"><li>${esc(b.article_numbers)}</li><li>${esc(b.parts)}</li>${deep ? `<li>${esc(b.article_total_note)}</li>` : ''}
+      <li>${T('Schedules added after 1950:')} ${b.added_schedules.map(([n, by]) => `<b>${esc(n)}</b> (${esc(by)})`).join(', ')}</li></ul>${srcLine(b.src)}
+      <div class="mithu"><p><b style="color:var(--navy-ink)">${T('Memory tricks')}</b></p><ul class="rows" style="margin-top:6px">${o.memory_tricks.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>`;
+  }
+  if (r === 'parts') return `<h2 class="sec">${T('The Parts, one by one')}</h2><p class="lede">${T('Tap a Part to open it.')}</p><div class="stlist">${S.parts.map(p => `<details class="panel st${p.status === 'omitted' ? ' gone' : ''}"><summary><span class="sid">${T('Part')} ${esc(p.id)}</span><span class="st-t"><b>${esc(p.title)}</b><small>${p.status === 'omitted' ? T('Omitted') : `${T('Articles')} ${esc(p.articles)}`}${p.status === 'in force (added later)' ? ' · ' + T('added later') : ''}</small></span></summary>
+      <div class="st-b">${p.img ? `<img class="illus st-img" src="${esc(p.img)}" alt="" loading="lazy">` : ''}<p>${esc(tx(p))}</p>${p.arts.length ? `<ul class="arts">${p.arts.map(a => `<li><b>${art(a.no)}</b> <i>${esc(a.title)}</i><span>${esc(tx(a))}</span></li>`).join('')}</ul>` : ''}${deep && p.trap ? `<p class="note"><b>${T('Quiz fact:')}</b> ${esc(p.trap)}</p>` : ''}${srcLine(p.src)}</div></details>`).join('')}</div>`;
+  if (r === 'schedules') return `<h2 class="sec">${T('The 12 Schedules')}</h2><p class="lede">${T('Schedules are the lists and tables at the back of the book.')}</p><div class="stlist">${S.schedules.map(x => `<details class="panel st"><summary><span class="sid">${esc(String(x.no))}</span><span class="st-t"><b>${esc(x.name)} ${hiTxt(x.hi)}</b><small>${esc(x.theme)}</small></span></summary>
+      <div class="st-b">${x.img ? `<img class="illus st-img" src="${esc(x.img)}" alt="" loading="lazy">` : ''}<p>${esc(tx(x))}</p><ul class="rows">${(deep ? x.facts : x.facts.slice(0, 4)).map(f => `<li>${esc(f)}</li>`).join('')}</ul>${deep && x.history.length ? `<p class="note"><b>${T('History:')}</b> ${x.history.map(esc).join(' ')}</p>` : ''}${deep && x.linked.length ? `<p class="note"><b>${T('Linked articles:')}</b> ${x.linked.map(esc).join(', ')}</p>` : ''}${srcLine(x.src)}</div></details>`).join('')}</div>`;
   return '';
 }
 

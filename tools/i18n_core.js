@@ -20,7 +20,7 @@ function setLang(l) { try { localStorage.setItem('sqp:lang', l); } catch (e) {} 
       if (typeof v === 'string') o[k] = T(v); else walk(v);
     }
     // where a card shows a Hindi subtitle, show the English original instead (the quiz itself is in English)
-    for (const k of ['title', 'name']) if (typeof o[k] === 'string' && typeof o.hi === 'string' && HI_REV[o[k]] !== undefined) { o.en = HI_REV[o[k]]; o.hi = HI_REV[o[k]]; break; }
+    for (const k of ['title', 'name', 'term']) if (typeof o[k] === 'string' && typeof o.hi === 'string' && HI_REV[o[k]] !== undefined) { o.en = HI_REV[o[k]]; o.hi = HI_REV[o[k]]; break; }
   };
   const HI_REV = {}; for (const [e, h] of Object.entries(HI)) HI_REV[h] = e;
   for (const k of Object.keys(DB)) if (!TOP_SKIP.has(k)) walk(DB[k]);

@@ -1,8 +1,8 @@
 {
  "meta": {
   "title": "Samvidhan: the Constitution of India, for every student",
-  "version": "0.6",
-  "date": "24 Oct 2026",
+  "version": "0.7",
+  "date": "1 Nov 2026",
   "note": "One record per person, event and idea. Modules point to ids. Content only: no HTML, no code.",
   "languages": [
    "en",
@@ -560,6 +560,180 @@
    "short": "PRS, Vital Stats on the debates",
    "url": "https://prsindia.org/policy/vital-stats/analysis-constituent-assembly-debates",
    "type": "secondary"
+  },
+  "st-S1": {
+   "title": "Constitution of India, official text as on 1 May 2024 (Lok Sabha / Ministry of Law and Justice): Arrangement of Articles, Parts, Schedules",
+   "short": "Constitution of India, official text as on 1 May 2024 (Lok Sabha / Ministry of Law and Jus",
+   "url": "https://eparlib.sansad.in/bitstream/123456789/2982247/1/29-05-27_Constitution_English_Final.pdf",
+   "type": "official"
+  },
+  "st-S2": {
+   "title": "constitutionofindia.net “Read the Constitution” index (Parts with article ranges and first articles)",
+   "short": "constitutionofindia.net “Read the Constitution” index",
+   "url": "https://www.constitutionofindia.net/read/",
+   "type": "archive"
+  },
+  "st-S3": {
+   "title": "PIB factsheet, Constitution of India (Interesting Facts): 395 Articles, 22 Parts, 8 Schedules at commencement",
+   "short": "PIB factsheet, Constitution of India (Interesting Facts): 395 Articles, 22 Parts, 8 Schedu",
+   "url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=148584",
+   "type": "official"
+  },
+  "st-F1": {
+   "title": "First Schedule, I: The States (constitutionofindia.net)",
+   "short": "First Schedule, I: The States",
+   "url": "https://www.constitutionofindia.net/schedules/i-the-states/",
+   "type": "archive"
+  },
+  "st-F2": {
+   "title": "First Schedule, II: The Union Territories (constitutionofindia.net)",
+   "short": "First Schedule, II: The Union Territories",
+   "url": "https://www.constitutionofindia.net/schedules/ii-the-union-territories/",
+   "type": "archive"
+  },
+  "st-F3": {
+   "title": "Second Schedule, Part A (constitutionofindia.net)",
+   "short": "Second Schedule, Part A",
+   "url": "https://www.constitutionofindia.net/schedules/a-provisions-as-to-the-president-and-the-governors-of-states/",
+   "type": "archive"
+  },
+  "st-F4": {
+   "title": "Second Schedule, Part C (constitutionofindia.net)",
+   "short": "Second Schedule, Part C",
+   "url": "https://www.constitutionofindia.net/schedules/c-provisions-as-to-the-speaker-and-the-deputy-speaker-of-the-house-of-the-people-and-the-chairman-and-the-deputy-chairman-of-the-council-of-states-and-the-speaker-and-the-deputy-speaker-of-the-legisl/",
+   "type": "archive"
+  },
+  "st-F5": {
+   "title": "Second Schedule, Part D (constitutionofindia.net)",
+   "short": "Second Schedule, Part D",
+   "url": "https://www.constitutionofindia.net/schedules/d-provisions-as-to-the-judges-of-the-supreme-court-and-of-the-high-courts/",
+   "type": "archive"
+  },
+  "st-F6": {
+   "title": "Second Schedule, Part E (constitutionofindia.net)",
+   "short": "Second Schedule, Part E",
+   "url": "https://www.constitutionofindia.net/schedules/e-provisions-as-to-the-comptroller-and-auditor-general-of-india/",
+   "type": "archive"
+  },
+  "st-F7": {
+   "title": "Third Schedule, Forms of Oaths or Affirmations (constitutionofindia.net)",
+   "short": "Third Schedule, Forms of Oaths or Affirmations",
+   "url": "https://www.constitutionofindia.net/schedules/forms-of-oaths-or-affirmations/",
+   "type": "archive"
+  },
+  "st-F8": {
+   "title": "Fourth Schedule, Allocation of seats in the Council of States (constitutionofindia.net)",
+   "short": "Fourth Schedule, Allocation of seats in the Council of States",
+   "url": "https://www.constitutionofindia.net/schedules/allocation-of-seats-in-the-council-of-states/",
+   "type": "archive"
+  },
+  "st-F9": {
+   "title": "Fifth Schedule, Parts A–D (constitutionofindia.net)",
+   "short": "Fifth Schedule, Parts A–D",
+   "url": "https://www.constitutionofindia.net/schedules/part-a-provisions-as-to-the-administration-and-control-of-scheduled-areas-and-scheduled-tribes/",
+   "type": "archive"
+  },
+  "st-F10": {
+   "title": "Sixth Schedule (constitutionofindia.net)",
+   "short": "Sixth Schedule",
+   "url": "https://www.constitutionofindia.net/schedules/provisions-as-to-the-administration-of-tribal-areas-in-the-states-of-assam-meghalaya-tripura-and-mizoram/",
+   "type": "archive"
+  },
+  "st-F11": {
+   "title": "Seventh Schedule, Lists I, II, III (constitutionofindia.net)",
+   "short": "Seventh Schedule, Lists I, II, III",
+   "url": "https://www.constitutionofindia.net/schedules/list-i-union-list/",
+   "type": "archive"
+  },
+  "st-F12": {
+   "title": "Eighth Schedule, Languages (constitutionofindia.net)",
+   "short": "Eighth Schedule, Languages",
+   "url": "https://www.constitutionofindia.net/schedules/languages/",
+   "type": "archive"
+  },
+  "st-F13": {
+   "title": "Ninth Schedule (constitutionofindia.net)",
+   "short": "Ninth Schedule",
+   "url": "https://www.constitutionofindia.net/schedules/ninth-schedule/",
+   "type": "archive"
+  },
+  "st-F14": {
+   "title": "Tenth Schedule (constitutionofindia.net)",
+   "short": "Tenth Schedule",
+   "url": "https://www.constitutionofindia.net/schedules/provisions-as-to-disqualification-on-ground-of-defection/",
+   "type": "archive"
+  },
+  "st-F15": {
+   "title": "Eleventh Schedule (constitutionofindia.net)",
+   "short": "Eleventh Schedule",
+   "url": "https://www.constitutionofindia.net/schedules/eleventh-schedule/",
+   "type": "archive"
+  },
+  "st-F16": {
+   "title": "Twelfth Schedule (constitutionofindia.net)",
+   "short": "Twelfth Schedule",
+   "url": "https://www.constitutionofindia.net/schedules/twelfth-schedule/",
+   "type": "archive"
+  },
+  "st-G1": {
+   "title": "PIB (Ministry of Home Affairs), 22 Dec 2004: 22 languages; Bodo, Dogri, Maithili, Santhali added by the 92nd Amendment, 2003",
+   "short": "PIB (Ministry of Home Affairs), 22 Dec 2004: 22 languages; Bodo, Dogri, Maithili, Santhali",
+   "url": "https://pib.gov.in/newsite/erelcontent.aspx?relid=5928",
+   "type": "official"
+  },
+  "st-G2": {
+   "title": "Sansad TV, “75 Years: Laws that Shaped India — the 52nd Amendment Act, 1985” (Tenth Schedule, anti-defection)",
+   "short": "Sansad TV, “75 Years: Laws that Shaped India — the 52nd Amendment Act, 1985”",
+   "url": "https://sansadtv.nic.in/episode/75-years-laws-that-shaped-india-the-constitution-fifty-second-amendment-act1985",
+   "type": "official"
+  },
+  "st-G3": {
+   "title": "PRS Legislative Research, discussion paper on the Anti-Defection Law (52nd Amendment 1985; merger needs two-thirds; Kihota Hollohon, AIR 1993 SC 412: Speaker’s decision open to judicial review)",
+   "short": "PRS Legislative Research, discussion paper on the Anti-Defection Law",
+   "url": "https://prsindia.org/files/parliament/discussion_papers/1370583077_Anti-Defection%20Law.pdf",
+   "type": "secondary"
+  },
+  "st-G4": {
+   "title": "7th State Finance Commission, Government of Bihar: 73rd Amendment Act 1992, in force 24 April 1993; Eleventh Schedule, 29 subjects; three-tier Panchayati Raj",
+   "short": "7th State Finance Commission, Government of Bihar: 73rd Amendment Act 1992, in force 24 Ap",
+   "url": "https://7thsfc.bihar.gov.in/73rdconstitutionalamendmentact",
+   "type": "official"
+  },
+  "st-G5": {
+   "title": "Ministry of Housing and Urban Affairs: 74th Amendment Act 1992 — assent 20 April 1993, in force 1 June 1993; inserted Part IXA and the Twelfth Schedule",
+   "short": "Ministry of Housing and Urban Affairs: 74th Amendment Act 1992 — assent 20 April 1993, in ",
+   "url": "https://mohua.gov.in/upload/uploadfiles/files/74th_CAA13.pdf",
+   "type": "official"
+  },
+  "st-G6": {
+   "title": "“First Amendment at 75” (Jindal Global Law School): in force 18 June 1951; Articles 31A, 31B; Ninth Schedule began with 13 land-reform laws",
+   "short": "“First Amendment at 75” (Jindal Global Law School): in force 18 June 1951; Articles 31A, 3",
+   "url": "https://pure.jgu.edu.in/id/eprint/11729/1/First%20Amendment%20at%2075.pdf",
+   "type": "secondary"
+  },
+  "st-G7": {
+   "title": "Rajendra Prasad, 26 Nov 1949 and Constituent Assembly Debates (via constitutionofindia.net); Article 394 (some provisions in force on 26 Nov 1949)",
+   "short": "Rajendra Prasad, 26 Nov 1949 and Constituent Assembly Debates",
+   "url": "https://www.constitutionofindia.net/debates/26-nov-1949/",
+   "type": "primary"
+  },
+  "st-S4": {
+   "title": "The Constitution of India, Legislative Department, pocket edition as on 1 May 2026 (updated to the 106th Amendment, 2023)",
+   "short": "The Constitution of India, Legislative Department, pocket edition as on 1 May 2026",
+   "url": "https://www.legislative.gov.in/static/uploads/2025/07/88cca69e868e50b217f855be2fb8bdba.pdf",
+   "type": "official"
+  },
+  "st-S5": {
+   "title": "The Constitution of India, Legislative Department, as on 1 April 2019 (FAOLEX copy): text of Articles 1–80 used for checking",
+   "short": "The Constitution of India, Legislative Department, as on 1 April 2019 (FAOLEX copy): text ",
+   "url": "https://faolex.fao.org/docs/pdf/ind132810.pdf",
+   "type": "official"
+  },
+  "livelaw-97th": {
+   "title": "LiveLaw, 20 July 2021: Supreme Court in Union of India v. Rajendra N. Shah holds Part IXB (97th Amendment) inoperative for State co-operative societies; applies to multi-State societies and those in UTs",
+   "short": "LiveLaw on Union of India v. Rajendra N. Shah (2021)",
+   "url": "https://www.livelaw.in/top-stories/constitution-97th-amendment-not-applicable-to-local-co-operative-societies-applies-only-to-multi-state-societies-societies-in-uts-212008",
+   "type": "secondary"
   }
  },
  "modules": [
@@ -786,6 +960,30 @@
     {
      "type": "numbers",
      "ref": "all"
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "title": "How the Constitution book is built",
+   "hi": "संविधान ग्रंथ की बनावट",
+   "span": "Parts, Articles and Schedules",
+   "sections": [
+    {
+     "type": "structure",
+     "ref": "concepts"
+    },
+    {
+     "type": "structure",
+     "ref": "overview"
+    },
+    {
+     "type": "structure",
+     "ref": "parts"
+    },
+    {
+     "type": "structure",
+     "ref": "schedules"
     }
    ]
   },
@@ -1205,7 +1403,7 @@
    "status": "ok",
    "onPoster": false,
    "img": [],
-   "art": null,
+   "art": "pic/st/g07.webp",
    "scene": null
   },
   {
@@ -1315,7 +1513,7 @@
    "status": "ok",
    "onPoster": false,
    "img": [],
-   "art": null,
+   "art": "pic/st/g02.webp",
    "scene": null
   },
   {
@@ -1527,12 +1725,13 @@
    "sort": "1947-08-30",
    "date": "30 August 1947",
    "title": "The Drafting Committee starts",
-   "text": "From this day the Drafting Committee sat for 141 days, as Ambedkar told the Assembly on 25 November 1949.",
+   "text": "The Assembly finished discussing the committee reports on 30 August 1947. From this day the Drafting Committee sat for 141 days, as Ambedkar told the Assembly on 25 November 1949.",
    "people": [
     "ambedkar"
    ],
    "src": [
-    "cad-1949-11-25"
+    "cad-1949-11-25",
+    "coi-stages"
    ],
    "from": [
     "m3.NUMBERS"
@@ -1540,7 +1739,7 @@
    "status": "ok",
    "onPoster": false,
    "img": [],
-   "art": null,
+   "art": "pic/st/g04.webp",
    "scene": null
   },
   {
@@ -1562,7 +1761,7 @@
    "status": "ok",
    "onPoster": false,
    "img": [],
-   "art": null,
+   "art": "pic/st/g03.webp",
    "scene": null
   },
   {
@@ -1598,8 +1797,8 @@
    "id": "e1948a",
    "sort": "1948-02-21",
    "date": "21 February 1948",
-   "title": "Draft published",
-   "text": "The Drafting Committee submitted its Draft Constitution to the President of the Assembly. It was published so people could read it and send comments. The Drafting Committee had added “fraternity”, which was not in the Objectives Resolution.",
+   "title": "Draft submitted, then published",
+   "text": "The Drafting Committee submitted its Draft Constitution to the President of the Assembly. It was then published so people could read it and send comments. The Drafting Committee had added “fraternity”, which was not in the Objectives Resolution.",
    "people": [
     "ambedkar"
    ],
@@ -1633,7 +1832,7 @@
    "sort": "1948-10-26",
    "date": "26 October 1948",
    "title": "Draft resubmitted",
-   "text": "After public comments, the Drafting Committee resubmitted the draft with proposed amendments.",
+   "text": "A Special Committee, made up of members of the Union Constitution, Provincial Constitution, Union Powers and Drafting Committees, looked at the public’s comments. The Drafting Committee met on 23, 24 and 27 March and 18 October 1948, and on 26 October 1948 resubmitted the draft with proposed amendments.",
    "people": [],
    "src": [
     "coi-stages"
@@ -1644,7 +1843,7 @@
    "status": "new",
    "onPoster": false,
    "img": [],
-   "art": null,
+   "art": "pic/st/g05.webp",
    "scene": null
   },
   {
@@ -1883,7 +2082,7 @@
    "status": "new",
    "onPoster": false,
    "img": [],
-   "art": null,
+   "art": "pic/st/g08.webp",
    "scene": null
   },
   {
@@ -1891,11 +2090,12 @@
    "sort": "1949-11-14",
    "date": "14–26 November 1949",
    "title": "Third reading",
-   "text": "The third and final reading began on 14 November 1949 and ended with the adoption of the Constitution on 26 November 1949.",
+   "text": "The third and final reading began on 14 November 1949. It ended on 26 November 1949, when the Assembly voted for the motion moved by Ambedkar and the Constitution was adopted.",
    "people": [],
    "src": [
     "pib-cday-2021",
-    "prs-cad"
+    "prs-cad",
+    "coi-stages"
    ],
    "from": [
     "audit"
@@ -1903,7 +2103,7 @@
    "status": "ok",
    "onPoster": false,
    "img": [],
-   "art": null,
+   "art": "pic/st/g09.webp",
    "scene": null
   },
   {
@@ -1972,7 +2172,7 @@
    "sort": "1950-01-24",
    "date": "24 January 1950",
    "title": "Signed, and a President elected",
-   "text": "Members signed three copies: one handwritten in English and illuminated by artists, one printed in English, one handwritten in Hindi. Dr Rajendra Prasad, proposed by Nehru and seconded by Patel, was declared elected President of India. Jana Gana Mana was declared the National Anthem, and Vande Mataram “shall be honoured equally with Jana Gana Mana and shall have equal status with it”.",
+   "text": "Members signed three copies: one handwritten in English and illuminated by artists, one printed in English, one handwritten in Hindi. Because Nehru had to leave on public duty, the Assembly’s President asked him to sign first. Dr Rajendra Prasad, proposed by Nehru and seconded by Patel, was declared elected President of India. Jana Gana Mana was declared the National Anthem, and Vande Mataram “shall be honoured equally with Jana Gana Mana and shall have equal status with it”.",
    "people": [
     "prasad",
     "nehru",
@@ -6194,6 +6394,540 @@
    "topic": "people",
    "type": "fact",
    "from": "new (other chat)"
+  },
+  {
+   "id": "st-s1-0",
+   "q": "How many States and Union Territories are in the First Schedule today?",
+   "a": "28 States and 8 Union Territories",
+   "why": "",
+   "src": [
+    "st-F1",
+    "st-F2",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s1-1",
+   "q": "In 1950, into how many Parts (A, B, C, D) were States grouped in the First Schedule?",
+   "a": "Four",
+   "why": "",
+   "src": [
+    "st-F1",
+    "st-F2",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s1-2",
+   "q": "When was the First Schedule adopted?",
+   "a": "15 October 1949",
+   "why": "",
+   "src": [
+    "st-F1",
+    "st-F2",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s2-0",
+   "q": "What was the President’s monthly pay in the 1950 Constitution?",
+   "a": "Rs 10,000",
+   "why": "",
+   "src": [
+    "st-F3",
+    "st-F4",
+    "st-F5",
+    "st-F6",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s2-1",
+   "q": "Which Part of the Second Schedule is omitted?",
+   "a": "Part B",
+   "why": "",
+   "src": [
+    "st-F3",
+    "st-F4",
+    "st-F5",
+    "st-F6",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s2-2",
+   "q": "Which Schedule sets the pay of the Comptroller and Auditor-General?",
+   "a": "The Second Schedule (Part E)",
+   "why": "",
+   "src": [
+    "st-F3",
+    "st-F4",
+    "st-F5",
+    "st-F6",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s3-0",
+   "q": "Which Schedule contains the forms of oath for ministers and judges?",
+   "a": "The Third Schedule",
+   "why": "",
+   "src": [
+    "st-F7",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s3-1",
+   "q": "In the Third Schedule, which form of oath is for Supreme Court judges and the CAG?",
+   "a": "Form IV",
+   "why": "",
+   "src": [
+    "st-F7",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s3-2",
+   "q": "What two choices does every oath form in the Third Schedule offer?",
+   "a": "Swear in the name of God, or solemnly affirm",
+   "why": "",
+   "src": [
+    "st-F7",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s4-0",
+   "q": "Which State has the most Rajya Sabha seats?",
+   "a": "Uttar Pradesh (31)",
+   "why": "",
+   "src": [
+    "st-F8",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s4-1",
+   "q": "How many Rajya Sabha seats does Maharashtra have?",
+   "a": "19",
+   "why": "",
+   "src": [
+    "st-F8",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s4-2",
+   "q": "In 1950, what was the total number of Rajya Sabha seats in the Fourth Schedule table?",
+   "a": "205",
+   "why": "",
+   "src": [
+    "st-F8",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s5-0",
+   "q": "Who declares an area to be a Scheduled Area?",
+   "a": "The President, by order",
+   "why": "",
+   "src": [
+    "st-F9",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s5-1",
+   "q": "What is the most members a Tribes Advisory Council can have?",
+   "a": "20",
+   "why": "",
+   "src": [
+    "st-F9",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s5-2",
+   "q": "Can Parliament change the Fifth Schedule without using Article 368?",
+   "a": "Yes, by an ordinary law (Part D)",
+   "why": "",
+   "src": [
+    "st-F9",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s6-0",
+   "q": "Which four States have Sixth Schedule areas?",
+   "a": "Assam, Meghalaya, Tripura and Mizoram",
+   "why": "",
+   "src": [
+    "st-F10",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s6-1",
+   "q": "What is the most members a Sixth Schedule District Council can have?",
+   "a": "30 (not more than 4 nominated)",
+   "why": "",
+   "src": [
+    "st-F10",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s6-2",
+   "q": "Who is called the pioneer of the Sixth Schedule?",
+   "a": "J.J.M. Nichols Roy",
+   "why": "",
+   "src": [
+    "st-F10",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s7-0",
+   "q": "In the Seventh Schedule, police is in which List?",
+   "a": "State List (entry 2)",
+   "why": "",
+   "src": [
+    "st-F11",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s7-1",
+   "q": "In the Seventh Schedule, education is in which List?",
+   "a": "Concurrent List (entry 25)",
+   "why": "",
+   "src": [
+    "st-F11",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s7-2",
+   "q": "How many entries did the Union, State and Concurrent Lists have in 1950?",
+   "a": "97, 66 and 47",
+   "why": "",
+   "src": [
+    "st-F11",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s8-0",
+   "q": "How many languages are in the Eighth Schedule?",
+   "a": "22",
+   "why": "",
+   "src": [
+    "st-F12",
+    "st-G1",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s8-1",
+   "q": "How many languages were in the Eighth Schedule in 1950?",
+   "a": "14",
+   "why": "",
+   "src": [
+    "st-F12",
+    "st-G1",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s8-2",
+   "q": "Which four languages were added in 2003?",
+   "a": "Bodo, Dogri, Maithili, Santhali",
+   "why": "",
+   "src": [
+    "st-F12",
+    "st-G1",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s9-0",
+   "q": "Which amendment created the Ninth Schedule?",
+   "a": "The First Amendment (1951)",
+   "why": "",
+   "src": [
+    "st-F13",
+    "st-G6",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s9-1",
+   "q": "Which Article protects the laws in the Ninth Schedule?",
+   "a": "Article 31B",
+   "why": "",
+   "src": [
+    "st-F13",
+    "st-G6",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s9-2",
+   "q": "How many laws did the Ninth Schedule start with in 1951?",
+   "a": "13",
+   "why": "",
+   "src": [
+    "st-F13",
+    "st-G6",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s10-0",
+   "q": "Which amendment added the anti-defection law?",
+   "a": "The 52nd Amendment (1985)",
+   "why": "",
+   "src": [
+    "st-F14",
+    "st-G2",
+    "st-G3",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s10-1",
+   "q": "Under the anti-defection law (Tenth Schedule), what share of a legislature party must agree to a merger?",
+   "a": "At least two-thirds",
+   "why": "",
+   "src": [
+    "st-F14",
+    "st-G2",
+    "st-G3",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s10-2",
+   "q": "Under the Tenth Schedule, who decides a disqualification question?",
+   "a": "The Speaker or Chairman",
+   "why": "",
+   "src": [
+    "st-F14",
+    "st-G2",
+    "st-G3",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s11-0",
+   "q": "How many subjects are in the Eleventh Schedule?",
+   "a": "29",
+   "why": "",
+   "src": [
+    "st-F15",
+    "st-G4",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s11-1",
+   "q": "Which amendment added the Eleventh Schedule?",
+   "a": "The 73rd Amendment (1992)",
+   "why": "",
+   "src": [
+    "st-F15",
+    "st-G4",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s11-2",
+   "q": "Which Article links Panchayats to the Eleventh Schedule?",
+   "a": "Article 243G",
+   "why": "",
+   "src": [
+    "st-F15",
+    "st-G4",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s12-0",
+   "q": "How many subjects are in the Twelfth Schedule?",
+   "a": "18",
+   "why": "",
+   "src": [
+    "st-F16",
+    "st-G5",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s12-1",
+   "q": "Which amendment added the Twelfth Schedule?",
+   "a": "The 74th Amendment (1992)",
+   "why": "",
+   "src": [
+    "st-F16",
+    "st-G5",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
+  },
+  {
+   "id": "st-s12-2",
+   "q": "Which Article links municipalities to the Twelfth Schedule?",
+   "a": "Article 243W",
+   "why": "",
+   "src": [
+    "st-F16",
+    "st-G5",
+    "st-S1"
+   ],
+   "topic": "structure",
+   "type": "structure",
+   "from": "Module 7",
+   "status": "ok"
   }
  ],
  "onHold": [
@@ -6283,6 +7017,21 @@
    "question": "Numbering of the three readings",
    "conflict": "constitutionofindia.net: first = clause by clause (15 Nov 1948–17 Oct 1949), second = 14–16 Nov 1949, third = 17–26 Nov 1949.",
    "use": "PIB and PRS: first 4–9 Nov 1948, second 15 Nov 1948–17 Oct 1949, third 14–26 Nov 1949"
+  },
+  {
+   "question": "When did the Assembly begin its work?",
+   "conflict": "constitutionofindia.net’s stages page says the Assembly “formally commenced its task” on 13 December 1946, the day the Objectives Resolution was moved.",
+   "use": "First meeting 9 December 1946; the framing work began with the Objectives Resolution on 13 December 1946"
+  },
+  {
+   "question": "Who signed the Constitution first?",
+   "conflict": "Some pages, including one on sansad.in, say Dr Rajendra Prasad was the first to sign. In the original copy his signature sits above the others.",
+   "use": "Nehru signed first, at the request of the Assembly’s President, as recorded in the debates of 24 January 1950"
+  },
+  {
+   "question": "How many days did the Assembly sit?",
+   "conflict": "A sansad.in summary says 167 days and “2 years, 11 months and 18 days”.",
+   "use": "11 sessions, 165 days; 2 years, 11 months and 17 days (Lok Sabha and Rajya Sabha Constituent Assembly pages)"
   }
  ],
  "images": [
@@ -9423,7 +10172,8 @@
    "m5": "scene-s/deb-art32.webp",
    "m6": "scene-s/book-2.webp",
    "m7": "scene-s/fs-1930.webp",
-   "m8": "scene-s/book-5.webp"
+   "m8": "scene-s/book-5.webp",
+   "m9": "pic/st/hero.webp"
   },
   "coverArt": {
    "top": "art/bk-5.webp",
@@ -9439,7 +10189,8 @@
    "m5": "scene/deb-art32.webp",
    "m6": "scene/book-2.webp",
    "m7": "scene/fs-1930.webp",
-   "m8": "scene/book-5.webp"
+   "m8": "scene/book-5.webp",
+   "m9": "pic/st/hero.webp"
   },
   "frontis": "art/frontis.webp",
   "coverNote": "The original is bound in black leather with an embossed gold pattern and an Ajanta-inspired lotus; this is a hand-drawn version.",
@@ -10071,6 +10822,121 @@
     "text": "Now play the picture quiz! Look at each picture or question and pick the right answer.",
     "src": []
    }
+  ],
+  "m9": [
+   {
+    "img": "pic/st/c_constitution.webp",
+    "text": "The big rule book of our country. Every other rule must follow it.",
+    "src": [
+     "st-S4"
+    ]
+   },
+   {
+    "img": "pic/st/c_article.webp",
+    "text": "One numbered rule in the big rule book, like Rule 1, Rule 2, Rule 3.",
+    "src": [
+     "st-S4"
+    ],
+    "q": {
+     "q": "What is one numbered rule of the Constitution called?",
+     "opts": [
+      "An Article",
+      "A Schedule",
+      "A Preamble"
+     ],
+     "a": 0
+    }
+   },
+   {
+    "img": "pic/st/c_part.webp",
+    "text": "A chapter of the rule book. Rules about the same thing are kept together in one Part.",
+    "src": [
+     "st-S4"
+    ]
+   },
+   {
+    "img": "pic/st/c_schedule.webp",
+    "text": "Lists and tables kept at the back of the rule book, like a list of States or languages.",
+    "src": [
+     "st-S4"
+    ],
+    "q": {
+     "q": "Where are the lists, like the list of languages, kept?",
+     "opts": [
+      "In the Schedules, at the back",
+      "On the cover",
+      "In the Preamble"
+     ],
+     "a": 0
+    }
+   },
+   {
+    "img": "pic/st/c_lettered.webp",
+    "text": "When a new rule is added between two old ones, it gets a letter, like 21A.",
+    "src": [
+     "st-S4"
+    ]
+   },
+   {
+    "img": "pic/st/c_omitted2.webp",
+    "text": "A rule that was taken out. Its number stays empty.",
+    "src": [
+     "st-S4"
+    ]
+   },
+   {
+    "img": "pic/st/c_amend.webp",
+    "text": "A change to the rule book, made carefully by Parliament.",
+    "src": [
+     "st-S4"
+    ],
+    "q": {
+     "q": "Who can change (amend) the Constitution?",
+     "opts": [
+      "Parliament",
+      "One person alone",
+      "A school"
+     ],
+     "a": 0
+    }
+   },
+   {
+    "img": "pic/st/pI.webp",
+    "text": "Tells us the name of our country and how States are made.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ]
+   },
+   {
+    "img": "pic/st/pIII.webp",
+    "text": "Our rights: being treated equally, speaking freely, going to school, following our faith, and going to court if someone takes them away.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ]
+   },
+   {
+    "img": "pic/st/pIVA.webp",
+    "text": "Our duties, like respecting the flag and anthem, keeping India clean and green, and studying well.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ]
+   },
+   {
+    "img": "pic/st/pIX.webp",
+    "text": "Village governments, called Panchayats.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-G4",
+     "st-S4"
+    ]
+   }
   ]
  },
  "deep": {
@@ -10145,6 +11011,13 @@
     "Fifteen women were members, but for many years few people knew their names. Why are some makers remembered and others not?",
     "B.N. Rau and S.N. Mukherjee were not members, yet Ambedkar thanked them in his closing speech. What does “making” a constitution include?"
    ]
+  },
+  "m9": {
+   "think": [
+    "Why do new articles get letters, like 21A, instead of new numbers? What would go wrong if everything were renumbered?",
+    "Some Schedules can be changed by an ordinary law, but most of the Constitution needs the special Article 368 procedure. Why might the makers have allowed this?",
+    "Directive Principles (Part IV) cannot be enforced in court, yet Article 37 calls them “fundamental in the governance of the country”. How can a rule matter if no court enforces it?"
+   ]
   }
  },
  "groupRoles": {
@@ -10155,5 +11028,1629 @@
    "rau": "Constitutional Adviser",
    "azad": "Member; later India’s first Education Minister"
   }
+ },
+ "structure": {
+  "note": "Age-levelled: j = Below 10, m = 10 to 14, s = 14 and above. Built from the Module 7 database (Constitution_Structure_Database.json v2.0).",
+  "asOf": "Official edition as on 1 May 2026 (updated to the 106th Amendment, 2023); web sources checked 1 November 2026",
+  "concepts": [
+   {
+    "term": "Constitution",
+    "hi": "संविधान",
+    "j": "The big rule book of our country. Every other rule must follow it.",
+    "m": "The highest law of India. It sets up the government, divides its powers, and lists the rights and duties of citizens. Any law that goes against it can be struck down by the courts.",
+    "s": "The supreme law of India, adopted on 26 November 1949 and in force from 26 January 1950. It creates and limits the organs of the State (legislature, executive, judiciary), divides power between the Union and the States, and guarantees rights. Laws inconsistent with Fundamental Rights are void to that extent (Article 13).",
+    "img": "pic/st/c_constitution.webp"
+   },
+   {
+    "term": "Preamble",
+    "hi": "उद्देशिका",
+    "j": "The first page. It tells us who made the rule book and what it wants for India.",
+    "m": "The introduction to the Constitution. It says the Constitution comes from “We, the People of India”, describes India as a sovereign, socialist, secular, democratic republic, and promises justice, liberty, equality and fraternity.",
+    "s": "An introductory statement of the Constitution’s source of authority, the nature of the State and its objectives. The Supreme Court held in Kesavananda Bharati (1973) that it is part of the Constitution. Amended once, by the 42nd Amendment (1976).",
+    "img": "pic/st/c_preamble.webp"
+   },
+   {
+    "term": "Article",
+    "hi": "अनुच्छेद",
+    "j": "One numbered rule in the big rule book, like Rule 1, Rule 2, Rule 3.",
+    "m": "A numbered section of the Constitution. Each article deals with one topic; for example, Article 21A gives children the right to education. The numbers run from 1 to 395.",
+    "s": "The basic numbered unit of the Constitution (Articles 1 to 395). Articles may be divided into clauses and sub-clauses and may carry provisos and explanations. Articles inserted later receive letters instead of new numbers.",
+    "img": "pic/st/c_article.webp"
+   },
+   {
+    "term": "Clause and sub-clause",
+    "hi": "खंड और उपखंड",
+    "j": "Some rules have smaller parts, like (1), (2), and even smaller ones like (a), (b).",
+    "m": "Long articles are split into clauses, numbered (1), (2), (3), and sub-clauses, lettered (a), (b), (c). So “Article 19(1)(a)” means Article 19, clause 1, sub-clause a: freedom of speech.",
+    "s": "Clauses are numbered in brackets and sub-clauses lettered in brackets; read “Article 19(1)(a)” as Article 19, clause (1), sub-clause (a). A “proviso” begins “Provided that…” and creates an exception; an “Explanation” clarifies meaning (for example, Explanation I to Article 25 on the kirpan).",
+    "img": "pic/st/c_clause.webp"
+   },
+   {
+    "term": "Lettered articles (like 21A)",
+    "hi": "अक्षर वाले अनुच्छेद",
+    "j": "When a new rule is added between two old ones, it gets a letter, like 21A.",
+    "m": "New articles are slotted in with letters so that old numbers never change: 21A (right to education) sits after 21; 51A (Fundamental Duties) after 51. That is why the last article is still 395, though there are over 400 articles.",
+    "s": "Insertion by amendment uses suffixes (21A, 239AA, 243ZT, 394A) to preserve existing cross-references. Hence numbering ends at 395 while the official edition describes the Constitution as having “over 400 articles”.",
+    "img": "pic/st/c_lettered.webp"
+   },
+   {
+    "term": "Part",
+    "hi": "भाग",
+    "j": "A chapter of the rule book. Rules about the same thing are kept together in one Part.",
+    "m": "A group of articles on one subject, numbered in Roman numerals: Part III is Fundamental Rights, Part V is the Union government. There were 22 Parts in 1950; Parts with letters (IVA, IXA, IXB, XIVA) were added later, and Part VII has been omitted.",
+    "s": "The Constitution is divided into Parts I to XXII; inserted Parts carry letters (IVA, IXA, IXB, XIVA) and Part VII is omitted, giving 25 operative Parts. Some Parts are subdivided into Chapters (for example, Part V Chapter IV deals with the Union Judiciary).",
+    "img": "pic/st/c_part.webp"
+   },
+   {
+    "term": "Schedule",
+    "hi": "अनुसूची",
+    "j": "Lists and tables kept at the back of the rule book, like a list of States or languages.",
+    "m": "A list or table attached at the end of the Constitution, which an article points to. For example, Article 246 points to the Seventh Schedule, where the Union, State and Concurrent Lists are written. There were 8 Schedules in 1950; there are 12 now.",
+    "s": "Schedules hold detail referred to by articles: lists (States, languages, subjects of legislation), forms (oaths) and administrative schemes (Fifth and Sixth Schedules). Some Schedules can be changed by ordinary law (Article 4 for the First and Fourth; Part D of the Fifth; paragraph 21 of the Sixth), without the Article 368 procedure.",
+    "img": "pic/st/c_schedule.webp"
+   },
+   {
+    "term": "Amendment",
+    "hi": "संशोधन",
+    "j": "A change to the rule book, made carefully by Parliament.",
+    "m": "A change to the Constitution, made by Parliament under Article 368. India has made 106 amendments; the latest is the 106th (2023), on seats for women.",
+    "s": "Amendment under Article 368 needs a special majority in each House (a majority of total membership and two-thirds of members present and voting); amendments affecting federal features also need ratification by at least half the State Legislatures. Parliament cannot destroy the basic structure (Kesavananda Bharati, 1973). Count: 106, per the official edition as on 1 May 2026.",
+    "img": "pic/st/c_amend.webp"
+   },
+   {
+    "term": "“Omitted”",
+    "hi": "“लोप किया गया”",
+    "j": "A rule that was taken out. Its number stays empty.",
+    "m": "When an article or Part is removed, the official text marks it “Omitted” and keeps the number empty: for example, Article 31 (property) and Part VII.",
+    "s": "Omitted provisions keep their numbers as gaps so that references do not shift: Article 31 (omitted by the 44th Amendment), Article 19(1)(f), Part VII, and Part B of the Second Schedule.",
+    "img": "pic/st/c_omitted.webp"
+   }
+  ],
+  "overview": {
+   "in_1950": {
+    "articles": 395,
+    "parts": 22,
+    "schedules": 8,
+    "src": [
+     "st-S3"
+    ]
+   },
+   "today": {
+    "article_numbers": "Numbered 1 to 395; new articles get letters (e.g. 21A, 51A, 243ZT, 394A).",
+    "article_total_note": "Totals differ by counting method: the official 2024 edition’s Speaker message says “over 400 articles”; constitutionofindia.net gives 467. Teach “over 400; still numbered up to 395”.",
+    "parts": "Part numbers I to XXII plus IVA, IXA, IXB, XIVA (26 headings); Part VII is omitted, so 25 Parts are in force.",
+    "schedules": 12,
+    "added_schedules": [
+     [
+      "Ninth",
+      "First Amendment, 1951"
+     ],
+     [
+      "Tenth",
+      "52nd Amendment, 1985"
+     ],
+     [
+      "Eleventh",
+      "73rd Amendment, 1992"
+     ],
+     [
+      "Twelfth",
+      "74th Amendment, 1992"
+     ]
+    ],
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-G6",
+     "st-G2",
+     "st-G4",
+     "st-G5"
+    ]
+   },
+   "memory_tricks": [
+    "One-article Parts: IVA (51A) and XX (368).",
+    "Schedule numbers 9-10-11-12 were all added after 1950: 1951, 1985, 1992, 1992.",
+    "Seventh = “Seven = Lists” (Union, State, Concurrent). Eighth = languages (22).",
+    "Eleventh = villages (29). Twelfth = towns (18). Bigger village list, smaller town list."
+   ],
+   "src": [
+    "st-S3"
+   ],
+   "img": "pic/st/c_steps.webp"
+  },
+  "parts": [
+   {
+    "id": "I",
+    "title": "The Union and its Territory",
+    "articles": "1–4",
+    "status": "in force",
+    "j": "Tells us the name of our country and how States are made.",
+    "m": "Says “India, that is Bharat, shall be a Union of States”, and lets Parliament create new States or change the names and borders of existing ones.",
+    "s": "Defines India as a Union of States and its territory (Article 1); empowers Parliament to admit new States (Article 2) and to form, merge, rename or alter States by ordinary law (Article 3), with consequential changes to the First and Fourth Schedules not counting as Article 368 amendments (Article 4).",
+    "arts": [
+     {
+      "no": "1",
+      "title": "Name and territory of the Union",
+      "j": "Our country is called India, also Bharat.",
+      "m": "“India, that is Bharat, shall be a Union of States.” Its territory is the States, the Union Territories and any territory acquired later.",
+      "s": "Article 1(1) uses “Union of States”, not “federation”. Territory = States + Union Territories (First Schedule) + territory that may be acquired."
+     },
+     {
+      "no": "3",
+      "title": "Formation of new States and changes to areas, boundaries or names",
+      "j": "Parliament can make new States or change a State’s name.",
+      "m": "Parliament can, by law, form a new State, join or split States, or change their areas, borders or names. The State concerned is asked for its views first.",
+      "s": "A Bill under Article 3 needs the President’s recommendation and a reference to the State Legislature for its views within a set period; Parliament is not bound by those views. Examples: the States Reorganisation Act, 1956; creation of Telangana (2014)."
+     },
+     {
+      "no": "4",
+      "title": "Laws under Articles 2 and 3 amend the Schedules",
+      "j": "Such laws can also update the lists at the back.",
+      "m": "Laws making new States may change the First and Fourth Schedules, and are not treated as constitutional amendments.",
+      "s": "Article 4(2): such laws are not amendments for the purposes of Article 368, so a simple majority suffices."
+     }
+    ],
+    "trap": "Article 1 says India, that is Bharat, shall be a Union of States.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pI.webp"
+   },
+   {
+    "id": "II",
+    "title": "Citizenship",
+    "articles": "5–11",
+    "status": "in force",
+    "j": "Tells us who was an Indian citizen when the Constitution began.",
+    "m": "Lays down who became a citizen on 26 January 1950, and lets Parliament make laws on citizenship (as it did in the Citizenship Act, 1955).",
+    "s": "Articles 5–8 settled citizenship at commencement, including for migrants during Partition; Article 9 bars citizenship for those who voluntarily acquired foreign citizenship; Article 11 leaves acquisition and termination of citizenship to Parliament (Citizenship Act, 1955). Articles 5–9 were among those in force from 26 November 1949.",
+    "arts": [
+     {
+      "no": "5",
+      "title": "Citizenship at the commencement of the Constitution",
+      "j": "People living in India in 1950 became citizens.",
+      "m": "A person with a home (domicile) in India became a citizen if born in India, or a parent was born in India, or they had lived in India for at least five years.",
+      "s": "Domicile plus any one of three conditions: birth in India; a parent born in India; ordinary residence in India for at least five years before commencement."
+     },
+     {
+      "no": "9",
+      "title": "Voluntary foreign citizenship",
+      "j": "If you choose another country’s citizenship, you stop being Indian.",
+      "m": "A person who voluntarily becomes a citizen of another country cannot be an Indian citizen under these articles.",
+      "s": "Voluntary acquisition of foreign citizenship disqualifies a person from citizenship under Articles 5, 6 and 8. India does not allow dual citizenship."
+     },
+     {
+      "no": "11",
+      "title": "Parliament to regulate citizenship by law",
+      "j": "Parliament makes the citizenship rules.",
+      "m": "Parliament has full power to make laws about how citizenship is gained or lost.",
+      "s": "Basis of the Citizenship Act, 1955 and its later amendments."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pII.webp"
+   },
+   {
+    "id": "III",
+    "title": "Fundamental Rights",
+    "articles": "12–35",
+    "status": "in force",
+    "j": "Our rights: being treated equally, speaking freely, going to school, following our faith, and going to court if someone takes them away.",
+    "m": "The Fundamental Rights, in six groups: Equality (14–18), Freedom (19–22), Against Exploitation (23–24), Freedom of Religion (25–28), Cultural and Educational (29–30), and Constitutional Remedies (32). Courts can enforce them.",
+    "s": "Justiciable rights against the State (defined in Article 12); laws inconsistent with them are void (Article 13). Some apply to all persons (14, 20, 21, 25), others only to citizens (15, 16, 19, 29). The right to property was removed by the 44th Amendment (1978). Enforced through writs under Article 32 (Supreme Court) and Article 226 (High Courts).",
+    "arts": [
+     {
+      "no": "14",
+      "title": "Equality before law",
+      "j": "The same rules for everyone.",
+      "m": "No person can be denied equality before the law or equal protection of the laws.",
+      "s": "Two ideas: equality before the law (no one above the law) and equal protection of the laws (like cases treated alike, with reasonable classification allowed)."
+     },
+     {
+      "no": "15",
+      "title": "No discrimination",
+      "j": "No one can be treated badly because of religion, caste, gender or where they were born.",
+      "m": "The State cannot discriminate against citizens only because of religion, race, caste, sex or place of birth. Special help is allowed for women, children and backward classes.",
+      "s": "15(1) bars discrimination; 15(3) permits special provisions for women and children; 15(4) (First Amendment, 1951) and later clauses permit special provisions for backward classes, SCs and STs."
+     },
+     {
+      "no": "17",
+      "title": "Abolition of Untouchability",
+      "j": "Untouchability is banned.",
+      "m": "Untouchability is abolished and practising it in any form is forbidden and punishable by law.",
+      "s": "Adopted 29 November 1948 (Draft Article 11). The term is not defined in the Constitution; Parliament enacted laws to punish it."
+     },
+     {
+      "no": "19",
+      "title": "Six freedoms",
+      "j": "Freedom to speak, meet, travel, live anywhere in India and choose your work.",
+      "m": "Citizens have freedom of speech and expression, to assemble peacefully, to form associations, to move freely, to live anywhere in India, and to follow any profession, with reasonable limits set by law.",
+      "s": "Six freedoms in 19(1)(a)–(e) and (g); (f) property was omitted. Clauses (2)–(6) allow “reasonable restrictions” on stated grounds, which courts can review."
+     },
+     {
+      "no": "21",
+      "title": "Life and personal liberty",
+      "j": "Everyone has the right to live and be free.",
+      "m": "No person can lose life or personal liberty except by a procedure set by law. Courts have read this to include a life with dignity.",
+      "s": "“Procedure established by law” was chosen over “due process” (December 1948). Courts have since interpreted Article 21 widely."
+     },
+     {
+      "no": "21A",
+      "title": "Right to education",
+      "j": "Free school for children aged 6 to 14.",
+      "m": "The State must give free and compulsory education to all children aged 6 to 14, as a law decides (the Right to Education Act, 2009).",
+      "s": "Inserted by the 86th Amendment (2002); the RTE Act came into force on 1 April 2010."
+     },
+     {
+      "no": "24",
+      "title": "No child labour in dangerous work",
+      "j": "Children under 14 cannot be made to work in factories or mines.",
+      "m": "No child below 14 can be employed in a factory, mine or other hazardous work.",
+      "s": "Adopted 3 December 1948 (Draft Article 18)."
+     },
+     {
+      "no": "25",
+      "title": "Freedom of religion",
+      "j": "You can follow your own religion.",
+      "m": "Everyone may freely profess, practise and propagate religion, subject to public order, morality and health.",
+      "s": "Explanation I: carrying a kirpan is part of professing Sikhism. The State may still regulate secular activities linked to religion and make social-reform laws."
+     },
+     {
+      "no": "32",
+      "title": "Right to Constitutional Remedies",
+      "j": "If your rights are taken away, you can go to the Supreme Court.",
+      "m": "You can go directly to the Supreme Court to protect your Fundamental Rights. It can issue writs such as habeas corpus. Ambedkar called it the “heart and soul” of the Constitution.",
+      "s": "Five writs: habeas corpus, mandamus, prohibition, quo warranto, certiorari. Itself a Fundamental Right; High Courts have a wider writ power under Article 226."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pIII.webp"
+   },
+   {
+    "id": "IV",
+    "title": "Directive Principles of State Policy",
+    "articles": "36–51",
+    "status": "in force",
+    "j": "Good goals the government should try to reach, like jobs, schools, clean environment and peace.",
+    "m": "The Directive Principles of State Policy: goals for the government, such as equal pay, free legal aid, village panchayats, protecting the environment and promoting peace. Courts cannot enforce them, but they guide every government.",
+    "s": "Non-justiciable but “fundamental in the governance of the country” (Article 37). Textbooks often group them as socialist, Gandhian and liberal-intellectual principles. Several have been given effect by laws and by later Fundamental Rights (e.g. Article 21A, the right to education).",
+    "arts": [
+     {
+      "no": "37",
+      "title": "Application of the principles",
+      "j": "These goals cannot be taken to court, but they are very important.",
+      "m": "Directive Principles cannot be enforced by any court, yet they are fundamental in running the country, and the State must apply them when making laws.",
+      "s": "“…shall not be enforceable by any court, but the principles therein laid down are nevertheless fundamental in the governance of the country.”"
+     },
+     {
+      "no": "39",
+      "title": "Principles of policy",
+      "j": "Fair pay and fair chances for everyone.",
+      "m": "The State should ensure adequate means of livelihood for men and women equally, fair sharing of resources, and equal pay for equal work.",
+      "s": "39(a) “men and women equally” right to adequate livelihood; 39(b) distribution of material resources for the common good; 39(d) equal pay for equal work."
+     },
+     {
+      "no": "39A",
+      "title": "Equal justice and free legal aid",
+      "j": "Free lawyers for people who cannot pay.",
+      "m": "The State should make sure poverty does not stop anyone from getting justice, including through free legal aid.",
+      "s": "Inserted by the 42nd Amendment (1976)."
+     },
+     {
+      "no": "40",
+      "title": "Village panchayats",
+      "j": "Villages should run their own affairs.",
+      "m": "The State shall take steps to organise village panchayats and give them powers to work as units of self-government.",
+      "s": "A Gandhian principle; realised through Part IX (73rd Amendment, 1992)."
+     },
+     {
+      "no": "44",
+      "title": "Uniform civil code",
+      "j": "The same family laws for all citizens.",
+      "m": "The State shall try to secure a uniform civil code for all citizens across India.",
+      "s": "“The State shall endeavour to secure for the citizens a uniform civil code throughout the territory of India.”"
+     },
+     {
+      "no": "45",
+      "title": "Early childhood care and education",
+      "j": "Care and learning for little children.",
+      "m": "The State shall try to provide early childhood care and education for all children until they turn six.",
+      "s": "Rewritten by the 86th Amendment (2002) when education for 6–14 moved to Article 21A."
+     },
+     {
+      "no": "48A",
+      "title": "Protect the environment",
+      "j": "Take care of forests and animals.",
+      "m": "The State shall try to protect and improve the environment and safeguard forests and wildlife.",
+      "s": "Inserted by the 42nd Amendment (1976); matched by the duty in Article 51A(g)."
+     },
+     {
+      "no": "50",
+      "title": "Separate the judiciary from the executive",
+      "j": "Judges should be separate from the government.",
+      "m": "The State shall separate the judiciary from the executive in public services.",
+      "s": "Supports judicial independence."
+     },
+     {
+      "no": "51",
+      "title": "International peace",
+      "j": "India should help keep peace in the world.",
+      "m": "The State shall try to promote international peace and security and respect for international law.",
+      "s": "Echoes clause 8 of the Objectives Resolution."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pIV.webp"
+   },
+   {
+    "id": "IVA",
+    "title": "Fundamental Duties",
+    "articles": "51A",
+    "status": "in force (added later)",
+    "j": "Our duties, like respecting the flag and anthem, keeping India clean and green, and studying well.",
+    "m": "Eleven Fundamental Duties of every citizen, all in Article 51A, such as respecting the Constitution, the flag and the anthem, protecting the environment, and developing a scientific temper.",
+    "s": "Inserted by the 42nd Amendment (1976) with ten duties; the eleventh, 51A(k), was added by the 86th Amendment (2002). They apply to citizens and are not directly enforceable, but courts use them to interpret laws.",
+    "arts": [
+     {
+      "no": "51A",
+      "title": "Fundamental duties",
+      "j": "Eleven promises every citizen makes to India.",
+      "m": "(a) abide by the Constitution, respect the National Flag and Anthem; (b) follow the ideals of the freedom struggle; (c) protect India’s sovereignty, unity and integrity; (d) defend the country; (e) promote harmony and respect women’s dignity; (f) preserve our composite culture; (g) protect the environment and have compassion for living creatures; (h) develop scientific temper; (i) safeguard public property and avoid violence; (j) strive for excellence; (k) parents to give children aged 6–14 opportunities for education.",
+      "s": "Duty (k) is the only one addressed to parents or guardians. Duty (h) “scientific temper, humanism and the spirit of inquiry and reform” is a frequent quiz item."
+     }
+    ],
+    "trap": "The whole Part is a single article: 51A.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pIVA.webp"
+   },
+   {
+    "id": "V",
+    "title": "The Union",
+    "articles": "52–151",
+    "status": "in force",
+    "j": "How the national government works: the President, the Prime Minister, Parliament and the Supreme Court.",
+    "m": "The Union government: the President and Vice-President, the Prime Minister and Council of Ministers, Parliament (Lok Sabha and Rajya Sabha), the Supreme Court and the Comptroller and Auditor-General.",
+    "s": "Five chapters: the Executive (52–78), Parliament (79–122), Legislative Powers of the President (123), the Union Judiciary (124–147) and the Comptroller and Auditor-General (148–151). Parliamentary system: the President acts on the advice of the Council of Ministers headed by the Prime Minister (Article 74), which is collectively responsible to the Lok Sabha (Article 75(3)).",
+    "arts": [
+     {
+      "no": "52",
+      "title": "The President of India",
+      "j": "India has a President.",
+      "m": "“There shall be a President of India.” The President is the head of the country.",
+      "s": "Constitutional head of the Union; executive power is vested in the President (Article 53)."
+     },
+     {
+      "no": "54",
+      "title": "Election of the President",
+      "j": "MPs and MLAs elect the President.",
+      "m": "The President is elected by an electoral college of the elected members of both Houses of Parliament and of the State Legislative Assemblies.",
+      "s": "Indirect election; nominated members do not vote. Elected MLAs of Delhi and Puducherry are included. Qualification: at least 35 years (Article 58); term five years (Article 56)."
+     },
+     {
+      "no": "72",
+      "title": "Power to pardon",
+      "j": "The President can forgive a punishment.",
+      "m": "The President can grant pardons or reduce punishments, including death sentences.",
+      "s": "Covers court-martial sentences, offences under Union laws, and all death sentences; exercised on ministerial advice."
+     },
+     {
+      "no": "74",
+      "title": "Council of Ministers",
+      "j": "The Prime Minister and ministers help the President.",
+      "m": "A Council of Ministers with the Prime Minister at its head aids and advises the President, who acts on that advice.",
+      "s": "Binding advice since the 42nd Amendment; the President may ask once for reconsideration (44th Amendment)."
+     },
+     {
+      "no": "79",
+      "title": "Parliament",
+      "j": "Parliament = President + Lok Sabha + Rajya Sabha.",
+      "m": "Parliament consists of the President and two Houses: the Council of States (Rajya Sabha) and the House of the People (Lok Sabha).",
+      "s": "The President is part of Parliament though not a member of either House."
+     },
+     {
+      "no": "80",
+      "title": "Council of States (Rajya Sabha)",
+      "j": "The Rajya Sabha represents the States.",
+      "m": "Up to 250 members: 12 nominated by the President and up to 238 elected by the States and Union Territories. Seats are listed in the Fourth Schedule.",
+      "s": "Nominees have special knowledge of literature, science, art and social service; State representatives are elected by MLAs by proportional representation (single transferable vote)."
+     },
+     {
+      "no": "81",
+      "title": "House of the People (Lok Sabha)",
+      "j": "The Lok Sabha is elected by the people.",
+      "m": "Members are directly elected by voters in constituencies across the States and Union Territories.",
+      "s": "Maximum 530 members from States and 20 from Union Territories."
+     },
+     {
+      "no": "83",
+      "title": "Duration of the Houses",
+      "j": "Lok Sabha: five years. Rajya Sabha: never fully dissolved.",
+      "m": "The Lok Sabha lasts five years unless dissolved earlier. The Rajya Sabha is permanent; one-third of members retire every second year.",
+      "s": "Lok Sabha’s term can be extended by one year at a time during a national emergency."
+     },
+     {
+      "no": "124",
+      "title": "Supreme Court",
+      "j": "The highest court in India.",
+      "m": "Sets up the Supreme Court of India, with the Chief Justice of India and other judges.",
+      "s": "Number of judges is fixed by Parliament by law; removal only by the process in clause (4) for proved misbehaviour or incapacity."
+     },
+     {
+      "no": "148",
+      "title": "Comptroller and Auditor-General",
+      "j": "The person who checks how government spends money.",
+      "m": "Creates the CAG, who audits the accounts of the Union and the States.",
+      "s": "Appointed by the President; removable like a Supreme Court judge. Pay set by the Second Schedule (Part E) originally."
+     }
+    ],
+    "trap": "It spans 100 article numbers, 52 to 151.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pV.webp"
+   },
+   {
+    "id": "VI",
+    "title": "The States",
+    "articles": "152–237",
+    "status": "in force",
+    "j": "How each State is run: the Governor, the Chief Minister, the State assembly and the High Court.",
+    "m": "State governments: the Governor, the Chief Minister and Council of Ministers, the State Legislature (one or two Houses) and the High Courts.",
+    "s": "Mirrors Part V at State level: Governor (153–162), Council of Ministers (163–167), State Legislature (168–212), Governor’s ordinance power (213), High Courts (214–232) and Subordinate Courts (233–237).",
+    "arts": [
+     {
+      "no": "153",
+      "title": "Governors of States",
+      "j": "Every State has a Governor.",
+      "m": "There shall be a Governor for each State; one person can be Governor of two or more States.",
+      "s": "The proviso allowing one Governor for two or more States was added by the 7th Amendment (1956)."
+     },
+     {
+      "no": "155",
+      "title": "Appointment of Governor",
+      "j": "The President chooses the Governor.",
+      "m": "The Governor is appointed by the President.",
+      "s": "Appointed by warrant under the President’s hand and seal; holds office during the President’s pleasure (Article 156)."
+     },
+     {
+      "no": "164",
+      "title": "Chief Minister and ministers",
+      "j": "The Governor appoints the Chief Minister.",
+      "m": "The Chief Minister is appointed by the Governor, and other ministers on the Chief Minister’s advice. The Council of Ministers is responsible to the Legislative Assembly.",
+      "s": "Collective responsibility to the Legislative Assembly (Article 164(2))."
+     },
+     {
+      "no": "168",
+      "title": "State Legislatures",
+      "j": "Each State has a law-making body.",
+      "m": "Each State has a Legislature; some States have two Houses (Legislative Assembly and Legislative Council), others one.",
+      "s": "For example, Maharashtra has two Houses: the Vidhan Sabha and the Vidhan Parishad."
+     },
+     {
+      "no": "214",
+      "title": "High Courts",
+      "j": "Each State has a High Court.",
+      "m": "There shall be a High Court for each State.",
+      "s": "Parliament may set up a common High Court for two or more States (Article 231)."
+     },
+     {
+      "no": "226",
+      "title": "High Court writs",
+      "j": "High Courts can also protect your rights.",
+      "m": "High Courts can issue writs to protect Fundamental Rights and for other purposes.",
+      "s": "Wider than Article 32, as it extends to “any other purpose”."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pVI.webp"
+   },
+   {
+    "id": "VII",
+    "title": "The States in Part B of the First Schedule",
+    "articles": "238",
+    "status": "omitted",
+    "j": "An old Part that has been removed.",
+    "m": "Dealt with the “Part B” States of 1950. It is now omitted.",
+    "s": "Applied Part VI to Part B States (former princely unions). Omitted when the Part A/B/C/D classification was abolished in 1956.",
+    "arts": [
+     {
+      "no": "238",
+      "title": "Application of Part VI to Part B States",
+      "j": "Removed.",
+      "m": "Omitted from the Constitution.",
+      "s": "Omitted by the 7th Amendment (1956), along with the A/B/C/D classification of States."
+     }
+    ],
+    "trap": "Part VII is the gap: the official text marks it “Omitted”.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pVII.webp"
+   },
+   {
+    "id": "VIII",
+    "title": "The Union Territories",
+    "articles": "239–242",
+    "status": "in force",
+    "j": "How Union Territories like Delhi and Chandigarh are run.",
+    "m": "Union Territories are run by the President through an Administrator; some, like Delhi, have their own elected assemblies.",
+    "s": "Administration through an Administrator (Article 239); legislatures for certain UTs (239A); special provisions for the National Capital Territory of Delhi (239AA, inserted 1991).",
+    "arts": [
+     {
+      "no": "239",
+      "title": "Administration of Union Territories",
+      "j": "The President runs Union Territories.",
+      "m": "Every Union Territory is run by the President through an Administrator.",
+      "s": "Administrators have designations such as Lieutenant Governor."
+     },
+     {
+      "no": "239AA",
+      "title": "Special provisions for Delhi",
+      "j": "Delhi has its own elected assembly.",
+      "m": "Delhi, the National Capital Territory, has a Lieutenant Governor and an elected Legislative Assembly and Council of Ministers.",
+      "s": "Inserted by the 69th Amendment (1991); public order, police and land are outside the Assembly’s powers."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pVIII.webp"
+   },
+   {
+    "id": "IX",
+    "title": "The Panchayats",
+    "articles": "243–243O",
+    "status": "in force (added later)",
+    "j": "Village governments, called Panchayats.",
+    "m": "Village self-government: every village has a Gram Sabha, and most States have three tiers of Panchayats (village, block, district), elected every five years, with one-third of seats for women.",
+    "s": "Inserted by the 73rd Amendment (1992; in force 24 April 1993): Gram Sabha (243A); three-tier structure, with an exemption for States with population under 20 lakh (243B); reservation for SCs, STs and not less than one-third for women (243D); five-year term (243E); devolution of Eleventh Schedule subjects (243G); State Election Commission (243K).",
+    "arts": [
+     {
+      "no": "243A",
+      "title": "Gram Sabha",
+      "j": "All the adults of a village meet together.",
+      "m": "A Gram Sabha is made up of all registered voters of a village.",
+      "s": "Exercises powers given by State law."
+     },
+     {
+      "no": "243B",
+      "title": "Constitution of Panchayats",
+      "j": "Three levels: village, block and district.",
+      "m": "States must set up Panchayats at village, intermediate (block) and district levels.",
+      "s": "States with population not exceeding 20 lakh may skip the intermediate level."
+     },
+     {
+      "no": "243D",
+      "title": "Reservation of seats",
+      "j": "Seats kept for women and SC/ST members.",
+      "m": "Seats are reserved for SCs and STs, and not less than one-third of seats for women.",
+      "s": "Also applies to the offices of chairpersons."
+     },
+     {
+      "no": "243E",
+      "title": "Duration of Panchayats",
+      "j": "Elections every five years.",
+      "m": "A Panchayat lasts five years; if dissolved early, elections must be held within six months.",
+      "s": "A Panchayat lasts five years; if dissolved early, elections must be held within six months."
+     },
+     {
+      "no": "243G",
+      "title": "Powers of Panchayats",
+      "j": "Panchayats look after local needs.",
+      "m": "States may give Panchayats powers to plan and run schemes, including the 29 subjects in the Eleventh Schedule.",
+      "s": "Link to the Eleventh Schedule."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-G4",
+     "st-S4"
+    ],
+    "img": "pic/st/pIX.webp"
+   },
+   {
+    "id": "IXA",
+    "title": "The Municipalities",
+    "articles": "243P–243ZG",
+    "status": "in force (added later)",
+    "j": "Town and city governments, like a municipal corporation.",
+    "m": "Self-government for towns and cities: Nagar Panchayats, Municipal Councils and Municipal Corporations, elected every five years, with one-third of seats for women.",
+    "s": "Inserted by the 74th Amendment (1992; in force 1 June 1993): three types of municipality (243Q), reservations including not less than one-third for women (243T), five-year term (243U), devolution of Twelfth Schedule functions (243W).",
+    "arts": [
+     {
+      "no": "243Q",
+      "title": "Constitution of Municipalities",
+      "j": "Big cities have corporations; towns have councils.",
+      "m": "Nagar Panchayats for areas changing from rural to urban, Municipal Councils for smaller urban areas, and Municipal Corporations for larger urban areas.",
+      "s": "Nagar Panchayats for areas changing from rural to urban, Municipal Councils for smaller urban areas, and Municipal Corporations for larger urban areas."
+     },
+     {
+      "no": "243T",
+      "title": "Reservation of seats",
+      "j": "Seats for women and SC/ST members.",
+      "m": "Seats are reserved for SCs and STs, and not less than one-third for women.",
+      "s": "Seats are reserved for SCs and STs, and not less than one-third for women."
+     },
+     {
+      "no": "243U",
+      "title": "Duration of Municipalities",
+      "j": "Elections every five years.",
+      "m": "A Municipality lasts five years; if dissolved early, elections within six months.",
+      "s": "A Municipality lasts five years; if dissolved early, elections within six months."
+     },
+     {
+      "no": "243W",
+      "title": "Powers of Municipalities",
+      "j": "Cities look after water, roads and parks.",
+      "m": "States may give municipalities powers over the 18 subjects in the Twelfth Schedule.",
+      "s": "Link to the Twelfth Schedule."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-G5",
+     "st-S4"
+    ],
+    "img": "pic/st/pIXA.webp"
+   },
+   {
+    "id": "IXB",
+    "title": "The Co-operative Societies",
+    "articles": "243ZH–243ZT",
+    "status": "in force (added later)",
+    "j": "Rules for co-operatives, where members run a business together.",
+    "m": "Rules for co-operative societies, such as how their boards are formed and elected.",
+    "s": "Inserted by the 97th Amendment (2011): incorporation and democratic functioning of co-operative societies, board of not more than 21 directors, five-year terms (243ZH–243ZT). Also added “co-operative societies” to Article 19(1)(c) and Article 43B. In 2021 (Union of India v. Rajendra N. Shah) the Supreme Court held this Part inoperative for co-operative societies under State law, because the States had not ratified it; it still applies to multi-State co-operative societies and those in Union Territories.",
+    "arts": [
+     {
+      "no": "243ZJ",
+      "title": "Board of a co-operative society",
+      "j": "A co-operative has a board of members.",
+      "m": "The board can have at most 21 directors, elected for five years.",
+      "s": "The board can have at most 21 directors, elected for five years."
+     },
+     {
+      "no": "243ZK",
+      "title": "Elections of the board",
+      "j": "Board elections are held regularly.",
+      "m": "Board elections must be held before the term ends.",
+      "s": "Board elections must be held before the term ends."
+     }
+    ],
+    "trap": "243ZT is the last of the long “243” chain.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4",
+     "livelaw-97th"
+    ],
+    "img": "pic/st/pIXB.webp"
+   },
+   {
+    "id": "X",
+    "title": "The Scheduled and Tribal Areas",
+    "articles": "244–244A",
+    "status": "in force",
+    "j": "Special care for tribal areas.",
+    "m": "Special rules for Scheduled Areas and Tribal Areas, using the Fifth and Sixth Schedules.",
+    "s": "Article 244(1) applies the Fifth Schedule to Scheduled Areas in States other than Assam, Meghalaya, Tripura and Mizoram; 244(2) applies the Sixth Schedule to tribal areas in those four States; 244A allows an autonomous State within Assam.",
+    "arts": [
+     {
+      "no": "244",
+      "title": "Administration of Scheduled and Tribal Areas",
+      "j": "Tribal areas have special protections.",
+      "m": "The Fifth Schedule applies to Scheduled Areas; the Sixth Schedule to tribal areas of Assam, Meghalaya, Tripura and Mizoram.",
+      "s": "The Fifth Schedule applies to Scheduled Areas; the Sixth Schedule to tribal areas of Assam, Meghalaya, Tripura and Mizoram."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pX.webp"
+   },
+   {
+    "id": "XI",
+    "title": "Relations between the Union and the States",
+    "articles": "245–263",
+    "status": "in force",
+    "j": "Who makes which laws: the country, the States, or both.",
+    "m": "Divides law-making power between Parliament and the State Legislatures, using the three Lists in the Seventh Schedule, and deals with cooperation between them.",
+    "s": "Legislative relations (245–255) and administrative relations (256–263). Union List prevails in conflict; Parliament holds residuary powers (248); Rajya Sabha can authorise Parliament to legislate on a State subject in the national interest (249); Article 246A (101st Amendment, 2016) gives concurrent power over GST; inter-State river disputes (262); Inter-State Council (263).",
+    "arts": [
+     {
+      "no": "246",
+      "title": "Subject-matter of laws",
+      "j": "Three lists decide who makes which laws.",
+      "m": "Parliament makes laws on the Union List, States on the State List, and both on the Concurrent List.",
+      "s": "In conflict on a Concurrent subject, the Union law generally prevails (Article 254)."
+     },
+     {
+      "no": "246A",
+      "title": "Goods and Services Tax",
+      "j": "One tax called GST.",
+      "m": "Both Parliament and the States can make laws on GST.",
+      "s": "Inserted by the 101st Amendment (2016)."
+     },
+     {
+      "no": "248",
+      "title": "Residuary powers",
+      "j": "New topics not in any list go to Parliament.",
+      "m": "Parliament can make laws on any matter not listed in the State or Concurrent Lists.",
+      "s": "Parliament can make laws on any matter not listed in the State or Concurrent Lists."
+     },
+     {
+      "no": "262",
+      "title": "Inter-State river waters",
+      "j": "Rules for sharing river water between States.",
+      "m": "Parliament can provide for settling disputes over inter-State rivers.",
+      "s": "Parliament can provide for settling disputes over inter-State rivers."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXI.webp"
+   },
+   {
+    "id": "XII",
+    "title": "Finance, Property, Contracts and Suits",
+    "articles": "264–300A",
+    "status": "in force",
+    "j": "Government money: taxes and how they are spent.",
+    "m": "Taxes, government funds, the Finance Commission, borrowing, property and contracts of the government.",
+    "s": "No tax without law (265); Consolidated Fund and Public Account (266); Contingency Fund (267); Finance Commission every five years (280); right to property as a constitutional (not fundamental) right (300A).",
+    "arts": [
+     {
+      "no": "265",
+      "title": "No tax without law",
+      "j": "Taxes need a law.",
+      "m": "No tax can be levied or collected except by authority of law.",
+      "s": "No tax can be levied or collected except by authority of law."
+     },
+     {
+      "no": "266",
+      "title": "Consolidated Fund",
+      "j": "The government’s main money box.",
+      "m": "All revenue of the Union or a State goes into its Consolidated Fund; money can be spent only by law.",
+      "s": "All revenue of the Union or a State goes into its Consolidated Fund; money can be spent only by law."
+     },
+     {
+      "no": "280",
+      "title": "Finance Commission",
+      "j": "Decides how tax money is shared.",
+      "m": "The President sets up a Finance Commission every five years to recommend how taxes are shared between the Union and the States.",
+      "s": "The President sets up a Finance Commission every five years to recommend how taxes are shared between the Union and the States."
+     },
+     {
+      "no": "300A",
+      "title": "Right to property",
+      "j": "Your property cannot be taken without a law.",
+      "m": "No person can be deprived of property except by authority of law.",
+      "s": "Inserted by the 44th Amendment (1978) when property stopped being a Fundamental Right."
+     }
+    ],
+    "trap": "The right to property now sits here, in Article 300A, not in Part III.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXII.webp"
+   },
+   {
+    "id": "XIII",
+    "title": "Trade, Commerce and Intercourse within the Territory of India",
+    "articles": "301–307",
+    "status": "in force",
+    "j": "Free trade across India.",
+    "m": "Trade and business can move freely across India, with limits that Parliament and States can set in the public interest.",
+    "s": "Freedom of trade, commerce and intercourse throughout India (301), subject to reasonable restrictions by Parliament (302) and States (304).",
+    "arts": [
+     {
+      "no": "301",
+      "title": "Freedom of trade",
+      "j": "Goods can travel across India.",
+      "m": "Trade, commerce and intercourse throughout India shall be free, subject to this Part.",
+      "s": "Trade, commerce and intercourse throughout India shall be free, subject to this Part."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXIII.webp"
+   },
+   {
+    "id": "XIV",
+    "title": "Services under the Union and the States",
+    "articles": "308–323",
+    "status": "in force",
+    "j": "Government jobs.",
+    "m": "Rules for government jobs, protection for government servants, All-India Services, and Public Service Commissions (UPSC and State PSCs).",
+    "s": "Recruitment and conditions (309), doctrine of pleasure (310) with safeguards against arbitrary dismissal (311), All-India Services such as IAS and IPS (312), Public Service Commissions (315–323).",
+    "arts": [
+     {
+      "no": "311",
+      "title": "Protection of government servants",
+      "j": "Fair treatment before removal from a job.",
+      "m": "A civil servant cannot be dismissed or demoted without an inquiry and a chance to be heard.",
+      "s": "A civil servant cannot be dismissed or demoted without an inquiry and a chance to be heard."
+     },
+     {
+      "no": "312",
+      "title": "All-India Services",
+      "j": "Services like the IAS and IPS.",
+      "m": "Parliament can create All-India Services common to the Union and the States.",
+      "s": "Parliament can create All-India Services common to the Union and the States."
+     },
+     {
+      "no": "315",
+      "title": "Public Service Commissions",
+      "j": "UPSC and State PSCs choose officers.",
+      "m": "There shall be a Public Service Commission for the Union and for each State.",
+      "s": "There shall be a Public Service Commission for the Union and for each State."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXIV.webp"
+   },
+   {
+    "id": "XIVA",
+    "title": "Tribunals",
+    "articles": "323A–323B",
+    "status": "in force (added later)",
+    "j": "Special courts for some kinds of cases.",
+    "m": "Tribunals: special bodies that decide cases about government jobs and other specific matters.",
+    "s": "Administrative tribunals (323A) and tribunals for other matters such as taxation and land reforms (323B). Inserted by the 42nd Amendment (1976).",
+    "arts": [
+     {
+      "no": "323A",
+      "title": "Administrative tribunals",
+      "j": "Special courts for government job cases.",
+      "m": "Parliament can set up tribunals for disputes about recruitment and service conditions of public servants.",
+      "s": "Parliament can set up tribunals for disputes about recruitment and service conditions of public servants."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXIVA.webp"
+   },
+   {
+    "id": "XV",
+    "title": "Elections",
+    "articles": "324–329A",
+    "status": "in force",
+    "j": "Voting and elections.",
+    "m": "The Election Commission runs elections; every citizen aged 18 and above can vote; there is one general voters’ list without discrimination.",
+    "s": "Election Commission (324); single electoral roll with no exclusion on grounds of religion, race, caste or sex (325); adult suffrage at 18 (326, lowered from 21 by the 61st Amendment, 1988); bar on courts in electoral matters except by election petition (329).",
+    "arts": [
+     {
+      "no": "324",
+      "title": "Election Commission",
+      "j": "The team that runs elections.",
+      "m": "Elections to Parliament, State Legislatures and the offices of President and Vice-President are controlled by the Election Commission.",
+      "s": "Article 324 was among the provisions in force from 26 November 1949."
+     },
+     {
+      "no": "325",
+      "title": "One electoral roll",
+      "j": "Everyone on the same voters’ list.",
+      "m": "No one can be left out of the electoral roll because of religion, race, caste or sex.",
+      "s": "No one can be left out of the electoral roll because of religion, race, caste or sex."
+     },
+     {
+      "no": "326",
+      "title": "Adult suffrage",
+      "j": "Every adult can vote.",
+      "m": "Elections to the Lok Sabha and State Assemblies are by adult suffrage: every citizen aged 18 or above can vote, unless disqualified by law.",
+      "s": "Voting age lowered from 21 to 18 by the 61st Amendment (1988)."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXV.webp"
+   },
+   {
+    "id": "XVI",
+    "title": "Special Provisions Relating to Certain Classes",
+    "articles": "330–342A",
+    "status": "in force",
+    "j": "Special help for groups that faced unfairness.",
+    "m": "Reserved seats for Scheduled Castes and Scheduled Tribes in the Lok Sabha and State Assemblies, and commissions to protect their interests and those of backward classes.",
+    "s": "Reservation of seats for SCs/STs (330, 332) and for women (330A, 332A; 106th Amendment, 2023); National Commissions for SCs (338), STs (338A) and Backward Classes (338B); Backward Classes Commission (340).",
+    "arts": [
+     {
+      "no": "330",
+      "title": "Reserved seats in the Lok Sabha",
+      "j": "Some seats for SC and ST members.",
+      "m": "Seats are reserved in the Lok Sabha for Scheduled Castes and Scheduled Tribes.",
+      "s": "Seats are reserved in the Lok Sabha for Scheduled Castes and Scheduled Tribes."
+     },
+     {
+      "no": "330A",
+      "title": "Seats for women in the Lok Sabha",
+      "j": "One-third seats for women.",
+      "m": "About one-third of directly elected Lok Sabha seats are to be reserved for women.",
+      "s": "Inserted by the 106th Amendment (2023); takes effect after a census and delimitation."
+     },
+     {
+      "no": "338",
+      "title": "National Commission for Scheduled Castes",
+      "j": "A group that protects SC rights.",
+      "m": "A national commission to look into safeguards for Scheduled Castes.",
+      "s": "A national commission to look into safeguards for Scheduled Castes."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ]
+   },
+   {
+    "id": "XVII",
+    "title": "Official Language",
+    "articles": "343–351",
+    "status": "in force",
+    "j": "The languages the government uses.",
+    "m": "Hindi in Devanagari is the official language of the Union, English continues to be used, States choose their own official languages, and children should be taught in their mother tongue at the primary stage.",
+    "s": "Official language of the Union (343); Official Language Commission (344); State languages (345); language of courts and laws (348); instruction in mother tongue at primary stage (350A); directive to develop Hindi (351), drawing on the Eighth Schedule.",
+    "arts": [
+     {
+      "no": "343",
+      "title": "Official language of the Union",
+      "j": "Hindi is the official language of the central government.",
+      "m": "Hindi in Devanagari script is the official language of the Union; English was to continue for 15 years, and Parliament allowed it to continue beyond that.",
+      "s": "Approved 14 September 1949 (Munshi–Ayyangar formula). Numerals: the international form of Indian numerals."
+     },
+     {
+      "no": "345",
+      "title": "Official language of a State",
+      "j": "Each State chooses its own language.",
+      "m": "A State may adopt one or more languages for its official work (Maharashtra uses Marathi).",
+      "s": "A State may adopt one or more languages for its official work (Maharashtra uses Marathi)."
+     },
+     {
+      "no": "350A",
+      "title": "Mother tongue at primary stage",
+      "j": "Little children should learn in their own language.",
+      "m": "Every State should try to provide primary education in the mother tongue for linguistic minority children.",
+      "s": "Every State should try to provide primary education in the mother tongue for linguistic minority children."
+     },
+     {
+      "no": "351",
+      "title": "Developing Hindi",
+      "j": "Help Hindi grow, using words from other Indian languages.",
+      "m": "The Union should spread and develop Hindi, drawing from Hindustani and the languages in the Eighth Schedule.",
+      "s": "The Union should spread and develop Hindi, drawing from Hindustani and the languages in the Eighth Schedule."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-F12",
+     "st-S4"
+    ],
+    "img": "pic/st/pXVII.webp"
+   },
+   {
+    "id": "XVIII",
+    "title": "Emergency Provisions",
+    "articles": "352–360",
+    "status": "in force",
+    "j": "What happens in a big emergency.",
+    "m": "Three kinds of emergency: national (war, external aggression or armed rebellion), President’s Rule in a State, and financial emergency.",
+    "s": "National Emergency (352); President’s Rule on failure of constitutional machinery in a State (356); suspension of enforcement of Fundamental Rights during emergency, except Articles 20 and 21 (359, as amended by the 44th Amendment); financial emergency (360, never yet declared).",
+    "arts": [
+     {
+      "no": "352",
+      "title": "National Emergency",
+      "j": "A national emergency in war or danger.",
+      "m": "The President can declare an emergency if India’s security is threatened by war, external aggression or armed rebellion.",
+      "s": "“Armed rebellion” replaced “internal disturbance” (44th Amendment, 1978). Declared in 1962, 1971 and 1975."
+     },
+     {
+      "no": "356",
+      "title": "President’s Rule",
+      "j": "When a State government fails, the President takes over for a while.",
+      "m": "If government in a State cannot run according to the Constitution, the President can take over its administration.",
+      "s": "Needs approval by Parliament; limits on duration."
+     },
+     {
+      "no": "360",
+      "title": "Financial emergency",
+      "j": "A money emergency.",
+      "m": "The President can declare a financial emergency if India’s financial stability or credit is threatened.",
+      "s": "Never declared so far."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXVIII.webp"
+   },
+   {
+    "id": "XIX",
+    "title": "Miscellaneous",
+    "articles": "361–367",
+    "status": "in force",
+    "j": "Other rules, like protection for the President.",
+    "m": "Miscellaneous provisions, including that the President and Governors cannot be taken to court for their official acts.",
+    "s": "Immunity of the President and Governors (361), protection of reporting of legislative proceedings (361A), definitions (366) and interpretation (367).",
+    "arts": [
+     {
+      "no": "361",
+      "title": "Protection of President and Governors",
+      "j": "The President is protected from court cases about official work.",
+      "m": "The President and Governors are not answerable to any court for their official acts.",
+      "s": "No criminal proceedings against them during their term."
+     }
+    ],
+    "trap": null,
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXIX.webp"
+   },
+   {
+    "id": "XX",
+    "title": "Amendment of the Constitution",
+    "articles": "368",
+    "status": "in force",
+    "j": "How the rule book can be changed.",
+    "m": "Explains how Parliament can amend the Constitution, sometimes with the agreement of half the States.",
+    "s": "Article 368: Bill in either House; special majority in each House; ratification by at least half the State Legislatures for amendments touching federal features; President must give assent. Limited by the basic structure doctrine (1973).",
+    "arts": [
+     {
+      "no": "368",
+      "title": "Power to amend the Constitution",
+      "j": "Parliament can change the Constitution with a big majority.",
+      "m": "An amendment needs a majority of each House’s total membership and two-thirds of members present and voting; some need half the States to agree.",
+      "s": "Basic structure cannot be destroyed (Kesavananda Bharati, 1973)."
+     }
+    ],
+    "trap": "One-article Parts: IVA (51A) and XX (368).",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXX.webp"
+   },
+   {
+    "id": "XXI",
+    "title": "Temporary, Transitional and Special Provisions",
+    "articles": "369–392",
+    "status": "in force",
+    "j": "Special rules for some States.",
+    "m": "Temporary and special provisions, including Article 371 for Maharashtra and Gujarat and special provisions for several North-Eastern and other States.",
+    "s": "Temporary and transitional provisions (369–392), including Article 370 (Jammu and Kashmir; made inoperative in August 2019, upheld by the Supreme Court in December 2023) and the 371 series of special provisions (371 to 371J).",
+    "arts": [
+     {
+      "no": "370",
+      "title": "Temporary provisions for Jammu and Kashmir",
+      "j": "A special rule for Jammu and Kashmir.",
+      "m": "Gave Jammu and Kashmir a special status. In 2019 these provisions were made inoperative and Jammu and Kashmir became a Union Territory.",
+      "s": "The Supreme Court upheld the 2019 changes in December 2023."
+     },
+     {
+      "no": "371",
+      "title": "Special provision for Maharashtra and Gujarat",
+      "j": "Special help for some regions of Maharashtra and Gujarat.",
+      "m": "The President may make the Governor responsible for separate development boards for regions such as Vidarbha and Marathwada.",
+      "s": "Article 371 names Maharashtra and Gujarat."
+     }
+    ],
+    "trap": "Article 371 is a special provision for Maharashtra and Gujarat.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-S4"
+    ],
+    "img": "pic/st/pXXI.webp"
+   },
+   {
+    "id": "XXII",
+    "title": "Short Title, Commencement, Authoritative Text in Hindi and Repeals",
+    "articles": "393–395",
+    "status": "in force",
+    "j": "The name of the Constitution and when it started.",
+    "m": "Gives the name “Constitution of India”, says when it came into force, provides an official Hindi text, and repeals the old British laws.",
+    "s": "Short title (393); commencement (394: some articles from 26 November 1949, the rest from 26 January 1950); authoritative Hindi text (394A, 58th Amendment, 1987); repeal of the Indian Independence Act, 1947 and the Government of India Act, 1935 (395).",
+    "arts": [
+     {
+      "no": "394",
+      "title": "Commencement",
+      "j": "Most of it began on 26 January 1950.",
+      "m": "Some articles (on citizenship, elections and transitional matters) came into force on 26 November 1949; the rest on 26 January 1950.",
+      "s": "Includes Articles 5–9 and 324 among those in force from 26 November 1949."
+     },
+     {
+      "no": "395",
+      "title": "Repeals",
+      "j": "Old British laws were removed.",
+      "m": "Repeals the Indian Independence Act, 1947 and the Government of India Act, 1935.",
+      "s": "Still the last article number."
+     }
+    ],
+    "trap": "Article 395 is still the last article number.",
+    "src": [
+     "st-S1",
+     "st-S2",
+     "st-G7",
+     "st-S4"
+    ],
+    "img": "pic/st/pXXII.webp"
+   }
+  ],
+  "schedules": [
+   {
+    "no": 1,
+    "name": "First Schedule",
+    "hi": "पहली अनुसूची",
+    "linked": [
+     "1",
+     "4"
+    ],
+    "subParts": [
+     "I: The States",
+     "II: The Union Territories"
+    ],
+    "j": "The list of all States and Union Territories of India.",
+    "m": "Lists India’s 28 States and 8 Union Territories and the land each covers. When a new State is made, this list is updated.",
+    "s": "Gives effect to Article 1; altered by laws under Articles 2–4 (not Article 368). Historically organised as Parts A–D (1950) until reorganisation in 1956.",
+    "facts": [
+     "Today: 28 States and 8 Union Territories.",
+     "States, in the order listed: Andhra Pradesh, Assam, Bihar, Gujarat, Kerala, Madhya Pradesh, Tamil Nadu, Maharashtra, Karnataka, Odisha, Punjab, Rajasthan, Uttar Pradesh, West Bengal, Nagaland, Haryana, Himachal Pradesh, Manipur, Tripura, Meghalaya, Sikkim, Mizoram, Arunachal Pradesh, Goa, Chhattisgarh, Uttarakhand, Jharkhand, Telangana.",
+     "Union Territories: Delhi, Andaman and Nicobar Islands, Lakshadweep, Dadra and Nagar Haveli and Daman and Diu, Puducherry, Chandigarh, Jammu and Kashmir, Ladakh.",
+     "Quiz trap: in the official numbering of Union Territories there is no number 5 (the list goes 4, 6 …)."
+    ],
+    "history": [
+     "In the Schedule as adopted: four groups. Part A (9 States): Assam, Bihar, Bombay, Madhya Pradesh, Madras, Orissa, Punjab, United Provinces, West Bengal. Part B (9 States): Hyderabad, Jammu and Kashmir, Madhya Bharat, Mysore, Patiala and East Punjab States Union, Rajasthan, Saurashtra, Travancore-Cochin, Vindhya Pradesh. Part C (10 States): Ajmer, Bhopal, Bilaspur, Cooch-Behar, Coorg, Delhi, Himachal Pradesh, Kutch, Manipur, Tripura. Part D: the Andaman and Nicobar Islands.",
+     "Debated 14 and 15 October 1949; adopted 15 October 1949.",
+     "The President of the Assembly ruled out amendments to create new States or move territory, saying they “would create difficulties in the actual operation of the Constitution”.",
+     "Later changes cited in the Schedule include the States Reorganisation Act, 1956, the 36th Amendment (1975, Sikkim) and the 100th Amendment (2015)."
+    ],
+    "src": [
+     "st-F1",
+     "st-F2",
+     "st-S1"
+    ],
+    "theme": "The States and the Union Territories",
+    "img": "pic/st/s1.webp"
+   },
+   {
+    "no": 2,
+    "name": "Second Schedule",
+    "hi": "दूसरी अनुसूची",
+    "linked": [
+     "59(3)",
+     "65(3)",
+     "75(6)",
+     "97",
+     "125",
+     "148(3)",
+     "158(3)",
+     "164(5)",
+     "186",
+     "221"
+    ],
+    "subParts": [
+     "A: The President and the Governors",
+     "B: (omitted)",
+     "C: Speakers, Deputy Speakers, Chairman and Deputy Chairman",
+     "D: Judges of the Supreme Court and High Courts",
+     "E: Comptroller and Auditor-General"
+    ],
+    "j": "How much top leaders and judges are paid.",
+    "m": "Sets pay, allowances and privileges of the President, Governors, Speakers and Chairmen, judges and the CAG.",
+    "s": "Parts A, C, D, E (Part B omitted). Original amounts were fixed in 1950; Parliament has since revised them by law.",
+    "facts": [
+     "1950 pay (per month): President Rs 10,000; Governor Rs 5,500 (the 1948 Draft had Rs 5,500 and Rs 4,500).",
+     "1950 pay for Supreme Court judges: Chief Justice Rs 5,000, other judges Rs 4,000.",
+     "CAG in 1950: Rs 4,000 per month.",
+     "Supreme Court judges get an official residence without paying rent.",
+     "Part B is omitted in the official text today.",
+     "Pay amounts have been revised since 1950; the 1950 figures are history, not today’s pay."
+    ],
+    "history": [
+     "Debated 11 and 12 October 1949; adopted 12 October 1949.",
+     "Ambedkar said judges’ pay was fixed keeping in mind “the dignity, the efficiency and the independence of the judiciary”."
+    ],
+    "src": [
+     "st-F3",
+     "st-F4",
+     "st-F5",
+     "st-F6",
+     "st-S1"
+    ],
+    "theme": "Pay and privileges of top office-holders"
+   },
+   {
+    "no": 3,
+    "name": "Third Schedule",
+    "hi": "तीसरी अनुसूची",
+    "linked": [
+     "75(4)",
+     "99",
+     "124(6)",
+     "148(2)",
+     "164(3)",
+     "188",
+     "219"
+    ],
+    "subParts": [
+     "Forms I to VIII"
+    ],
+    "j": "The promises leaders say when they start their job.",
+    "m": "The words of the oaths taken by ministers, MPs, MLAs, judges and the CAG.",
+    "s": "Eight forms (I–VIII), each giving the choice “swear in the name of God” or “solemnly affirm”. The oaths of the President and Vice-President are in Articles 60 and 69.",
+    "facts": [
+     "Form I: Union Minister, oath of office. Form II: Union Minister, oath of secrecy.",
+     "Form III-A: candidate for Parliament. Form III-B: Member of Parliament.",
+     "Form IV: Supreme Court judges and the CAG: “without fear or favour, affection or ill-will”.",
+     "Form V and VI: State Minister (office and secrecy). Form VII-A and VII-B: candidate for and member of a State Legislature. Form VIII: High Court judges.",
+     "Every form offers a choice: “swear in the name of God” or “solemnly affirm”.",
+     "Quiz trap: the President’s and Vice-President’s oaths are not in this Schedule (they are in their own articles)."
+    ],
+    "history": [
+     "The 1948 Draft said “solemnly affirm (or swear)”. Members asked that swearing in God’s name come first; the Assembly agreed.",
+     "Adopted 26 August 1949; reopened on 16 October 1949 with no significant change."
+    ],
+    "src": [
+     "st-F7",
+     "st-S1"
+    ],
+    "theme": "Forms of Oaths or Affirmations",
+    "img": "pic/st/s3.webp"
+   },
+   {
+    "no": 4,
+    "name": "Fourth Schedule",
+    "hi": "चौथी अनुसूची",
+    "linked": [
+     "4(1)",
+     "80(2)"
+    ],
+    "subParts": [
+     "Table of seats for each State and Union Territory"
+    ],
+    "j": "How many Rajya Sabha members each State gets.",
+    "m": "Seats in the Rajya Sabha for each State and Union Territory: 233 in all; Uttar Pradesh has the most (31), Maharashtra has 19.",
+    "s": "Allocates elected Rajya Sabha seats under Article 80(2); bigger States get more seats but not in strict proportion to population.",
+    "facts": [
+     "Total in the table today: 233 seats.",
+     "Most seats: Uttar Pradesh 31, Maharashtra 19, Tamil Nadu 18, Bihar 16, West Bengal 16.",
+     "Maharashtra has 19 seats.",
+     "Several States have just 1 seat each, such as Goa, Sikkim and Nagaland. Delhi has 3, Jammu and Kashmir 4, Puducherry 1.",
+     "1950 total: 205 seats (145 for Part A States, 53 for Part B, 7 for Part C)."
+    ],
+    "history": [
+     "Introduced and adopted on 17 October 1949, without much debate.",
+     "The draft allowed up to 250 seats; the Drafting Committee set the total at 205, expecting it to grow if States were split."
+    ],
+    "src": [
+     "st-F8",
+     "st-S1"
+    ],
+    "theme": "Seats in the Rajya Sabha (Council of States)",
+    "img": "pic/st/s4.webp"
+   },
+   {
+    "no": 5,
+    "name": "Fifth Schedule",
+    "hi": "पाँचवीं अनुसूची",
+    "linked": [
+     "244(1)"
+    ],
+    "subParts": [
+     "A: General",
+     "B: Administration and control of Scheduled Areas and Scheduled Tribes",
+     "C: Scheduled Areas",
+     "D: Amendment of the Schedule"
+    ],
+    "j": "Special care for tribal areas in many States.",
+    "m": "Protects tribal people in Scheduled Areas: the Governor reports to the President and can stop laws that harm them, and a Tribes Advisory Council gives advice.",
+    "s": "Applies under Article 244(1) to States other than Assam, Meghalaya, Tripura and Mizoram. Regulations on land transfer and money-lending need presidential assent.",
+    "facts": [
+     "The Governor reports to the President on Scheduled Areas every year, or when asked.",
+     "Tribes Advisory Council: not more than 20 members; three-fourths are Scheduled Tribe members of the State’s Legislative Assembly.",
+     "The Governor can stop an Act of Parliament or the State from applying to a Scheduled Area, or apply it with changes.",
+     "The Governor can make regulations to stop transfer of tribal land and to control money-lenders; they need the President’s assent.",
+     "Scheduled Areas are declared by the President by order (Part C).",
+     "Parliament can amend this Schedule by an ordinary law; it is not treated as an amendment under Article 368 (Part D)."
+    ],
+    "history": [
+     "Adopted on 5 September 1949.",
+     "In the debate, the Scheduled Areas were not listed in the Schedule itself; the President would identify them."
+    ],
+    "src": [
+     "st-F9",
+     "st-S1"
+    ],
+    "theme": "Scheduled Areas and Scheduled Tribes",
+    "img": "pic/st/s5.webp"
+   },
+   {
+    "no": 6,
+    "name": "Sixth Schedule",
+    "hi": "छठी अनुसूची",
+    "linked": [
+     "244(2)",
+     "275(1)"
+    ],
+    "subParts": [
+     "Autonomous districts and regions; District and Regional Councils; table of tribal areas"
+    ],
+    "j": "Tribal areas in four North-Eastern States run their own councils.",
+    "m": "Tribal areas of Assam, Meghalaya, Tripura and Mizoram elect District Councils that can make rules on land, forests, customs and local courts.",
+    "s": "Autonomous districts and regions with legislative, judicial and financial powers (Article 244(2), 275(1)). Pioneered by J.J.M. Nichols Roy.",
+    "facts": [
+     "A District Council has not more than 30 members; not more than 4 are nominated by the Governor; the rest are elected by adult suffrage. Elected members serve 5 years.",
+     "Councils can make laws on land, forests (not reserved forests), jhum (shifting) cultivation, village councils, inheritance, marriage and divorce, and social customs.",
+     "They can run primary schools, dispensaries, markets, roads and ferries, collect land revenue and certain taxes, and get a share of mineral royalties.",
+     "Assam: North Cachar Hills, Karbi Anglong, Bodoland Territorial Areas District. Meghalaya: Khasi Hills, Jaintia Hills, Garo Hills. Tripura: Tripura Tribal Areas District. Mizoram: Chakma, Mara, Lai Districts.",
+     "Its pioneer: J.J.M. Nichols Roy (see Who’s Who)."
+    ],
+    "history": [
+     "Debated in the Constituent Assembly on 5, 6 and 7 September 1949."
+    ],
+    "src": [
+     "st-F10",
+     "st-S1"
+    ],
+    "theme": "Tribal Areas in Assam, Meghalaya, Tripura and Mizoram",
+    "img": "pic/st/s6.webp"
+   },
+   {
+    "no": 7,
+    "name": "Seventh Schedule",
+    "hi": "सातवीं अनुसूची",
+    "linked": [
+     "246"
+    ],
+    "subParts": [
+     "List I: Union List",
+     "List II: State List",
+     "List III: Concurrent List"
+    ],
+    "j": "Three lists: what the country decides, what States decide, and what both decide.",
+    "m": "The Union List (like defence and railways), the State List (like police and public health) and the Concurrent List (like education and forests).",
+    "s": "Gives effect to Article 246. Entry counts changed over time: 1950: 97/66/47; today: 98/59/52.",
+    "facts": [
+     "Union List: entries numbered up to 97 (98 entries today, with 2A, 92A, 92B added and 33, 92 omitted). Examples: 1 Defence of India, 6 Atomic energy, 10 Foreign affairs, 17 Citizenship, 22 Railways, 31 Posts and telegraphs, 36 Currency, 45 Banking, 69 Census.",
+     "State List: numbered up to 66, but only 59 entries today (11, 19, 20, 29, 36, 52 and 55 omitted). Examples: 1 Public order, 2 Police, 6 Public health and sanitation, 14 Agriculture, 17 Water, 18 Land, 45 Land revenue.",
+     "Concurrent List: numbered up to 47, with 52 entries today (11A, 17A, 17B, 20A, 33A added). Examples: 1 Criminal law, 5 Marriage and divorce, 17A Forests, 17B Protection of wild animals and birds, 20A Population control and family planning, 25 Education.",
+     "1950: 97 Union, 66 State and 47 Concurrent entries."
+    ],
+    "history": [
+     "Debated over nine days: 29, 30, 31 August; 1, 2, 3, 9 September; 13 and 17 October 1949."
+    ],
+    "src": [
+     "st-F11",
+     "st-S1"
+    ],
+    "theme": "Union, State and Concurrent Lists",
+    "img": "pic/st/s7.webp"
+   },
+   {
+    "no": 8,
+    "name": "Eighth Schedule",
+    "hi": "आठवीं अनुसूची",
+    "linked": [
+     "344(1)",
+     "351"
+    ],
+    "subParts": [
+     "List of 22 languages"
+    ],
+    "j": "The list of India’s 22 recognised languages.",
+    "m": "22 languages are listed; there were 14 in 1950. Hindi, Bengali, Marathi, Tamil, Telugu and Urdu are among them.",
+    "s": "Linked to Articles 344(1) and 351. Additions include Sindhi, Konkani, Manipuri, Nepali, and (92nd Amendment, 2003) Bodo, Dogri, Maithili and Santhali.",
+    "facts": [
+     "22 languages today: Assamese, Bengali, Bodo, Dogri, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Santhali, Sindhi, Tamil, Telugu, Urdu.",
+     "1950: 14 languages.",
+     "Added later (8): Sindhi, Konkani, Manipuri, Nepali, Bodo, Dogri, Maithili, Santhali.",
+     "Bodo, Dogri, Maithili and Santhali were added by the 92nd Amendment, 2003.",
+     "“Oriya” in 1950 is now written “Odia”.",
+     "Marathi, Tamil, Bengali and Urdu have all been in the list since 1950."
+    ],
+    "history": [
+     "Linked to Part XVII (Official Language)."
+    ],
+    "src": [
+     "st-F12",
+     "st-G1",
+     "st-S1"
+    ],
+    "theme": "Languages",
+    "img": "pic/st/s8.webp"
+   },
+   {
+    "no": 9,
+    "name": "Ninth Schedule",
+    "hi": "नौवीं अनुसूची",
+    "linked": [
+     "31B"
+    ],
+    "subParts": [
+     "List of protected laws"
+    ],
+    "j": "A list of special laws that are protected.",
+    "m": "A list of laws, mostly about land reforms, protected under Article 31B from being challenged for violating Fundamental Rights.",
+    "s": "Created by the First Amendment (1951) with 13 laws; now runs to entry 284. Laws added after 24 April 1973 can still be reviewed against the basic structure (I.R. Coelho, 2007).",
+    "facts": [
+     "Created by the First Amendment (in force 18 June 1951), which began with 13 land-reform laws.",
+     "Today the list runs to entry 284 (with an extra entry 257A).",
+     "The last entry is the West Bengal Land Reforms Tribunal Act, 1991."
+    ],
+    "history": [
+     "The first Schedule added after 1950."
+    ],
+    "src": [
+     "st-F13",
+     "st-G6",
+     "st-S1"
+    ],
+    "theme": "Validation of certain Acts and Regulations",
+    "img": "pic/st/s9.webp"
+   },
+   {
+    "no": 10,
+    "name": "Tenth Schedule",
+    "hi": "दसवीं अनुसूची",
+    "linked": [
+     "102(2)",
+     "191(2)"
+    ],
+    "subParts": [
+     "Disqualification on ground of defection"
+    ],
+    "j": "A rule that stops elected leaders from switching parties.",
+    "m": "The anti-defection law: an MP or MLA who leaves their party or votes against its instructions can lose their seat. The Speaker or Chairman decides.",
+    "s": "Added by the 52nd Amendment (1985). Merger exception needs two-thirds of the legislature party; paragraph 3 (split) omitted by the 91st Amendment (2003). Speaker’s decision is open to judicial review (Kihota Hollohon, 1992).",
+    "facts": [
+     "Added by the 52nd Amendment, 1985.",
+     "A member can be disqualified for voluntarily giving up party membership, or for voting (or not voting) against the party’s direction without permission.",
+     "An independent member who joins a party, and a nominated member who joins a party after six months, can also be disqualified.",
+     "Merger exception: no disqualification if at least two-thirds of the legislature party agree to merge with another party.",
+     "The Speaker or Chairman decides; in Kihota Hollohon (1992) the Supreme Court held that this decision can be reviewed by courts.",
+     "Paragraph 3 was omitted by the 91st Amendment, 2003 (from 1 January 2004)."
+    ],
+    "history": [
+     "Not in the original Constitution; added in 1985."
+    ],
+    "src": [
+     "st-F14",
+     "st-G2",
+     "st-G3",
+     "st-S1"
+    ],
+    "theme": "Anti-defection law",
+    "img": "pic/st/s10.webp"
+   },
+   {
+    "no": 11,
+    "name": "Eleventh Schedule",
+    "hi": "ग्यारहवीं अनुसूची",
+    "linked": [
+     "243G"
+    ],
+    "subParts": [
+     "29 subjects"
+    ],
+    "j": "29 jobs a village Panchayat can do, like water and roads.",
+    "m": "29 subjects that States can hand to Panchayats, such as agriculture, drinking water, roads, schools and health.",
+    "s": "Added by the 73rd Amendment (1992); linked to Article 243G.",
+    "facts": [
+     "29 subjects, including: 1 Agriculture; 4 Animal husbandry, dairying and poultry; 10 Rural housing; 11 Drinking water; 13 Roads, culverts, bridges; 17 Education, including primary and secondary schools; 20 Libraries; 22 Markets and fairs; 23 Health and sanitation; 25 Women and child development; 28 Public distribution system; 29 Maintenance of community assets.",
+     "Added by the 73rd Amendment Act, 1992, in force 24 April 1993, which set up three-tier Panchayati Raj (village, block, district)."
+    ],
+    "history": [
+     "Linked to Part IX (The Panchayats)."
+    ],
+    "src": [
+     "st-F15",
+     "st-G4",
+     "st-S1"
+    ],
+    "theme": "Powers of Panchayats",
+    "img": "pic/st/s11.webp"
+   },
+   {
+    "no": 12,
+    "name": "Twelfth Schedule",
+    "hi": "बारहवीं अनुसूची",
+    "linked": [
+     "243W"
+    ],
+    "subParts": [
+     "18 subjects"
+    ],
+    "j": "18 jobs a city government can do, like parks and fire services.",
+    "m": "18 subjects that States can hand to municipalities, such as town planning, water supply, fire services and street lighting.",
+    "s": "Added by the 74th Amendment (1992); linked to Article 243W.",
+    "facts": [
+     "18 subjects, including: 1 Urban planning including town planning; 5 Water supply; 6 Public health, sanitation and solid waste management; 7 Fire services; 10 Slum improvement and upgradation; 12 Parks, gardens, playgrounds; 16 Registration of births and deaths; 17 Street lighting, parking lots, bus stops.",
+     "Added by the 74th Amendment Act, 1992 (assent 20 April 1993; in force 1 June 1993), which also inserted Part IXA.",
+     "City bodies, such as a municipal corporation, come under Part IXA (The Municipalities)."
+    ],
+    "history": [
+     "Linked to Part IXA (The Municipalities)."
+    ],
+    "src": [
+     "st-F16",
+     "st-G5",
+     "st-S1"
+    ],
+    "theme": "Powers of Municipalities",
+    "img": "pic/st/s12.webp"
+   }
+  ]
  }
 }
