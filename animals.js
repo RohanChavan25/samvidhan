@@ -1,6 +1,6 @@
 // SAMVIDHAN — ANIMAL FRIENDS (loaded after levels.js)
 // Original hand-drawn style SVG animals: Mithu the parrot (guide), an elephant, a lion, a peacock, a tortoise and an owl.
-// They pop up with tips, walk across between chapters and cheer quiz answers. No facts live here; tips come from DB.
+// They pop up with tips, walk across between chapters and cheer practice answers. No facts live here; tips come from DB.
 // Everything respects "reduce motion".
 
 const INK = '#2B2118';
@@ -111,7 +111,7 @@ const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.
   if (el.classList.contains('rv')) { el.classList.add('in'); io.unobserve(el); }
   if (el.classList.contains('endcard') && !pageFlags.end && LEVEL !== 3) {
     pageFlags.end = true; const m = DB.modules.findIndex(m => m.id === location.hash.slice(1));
-    if (m > -1) petPop(LEVEL === 1 ? 'parrot' : 'elephant', `<b>${LANG === 'hi' ? `शाबाश! तुमने अध्याय ${m + 1} पूरा किया।` : `Well done! You finished Chapter ${m + 1}.`}</b> ${LEVEL === 1 ? T('Now play the picture quiz!') : T('Test yourself before you move on.')}`);
+    if (m > -1) petPop(LEVEL === 1 ? 'parrot' : 'elephant', `<b>${LANG === 'hi' ? `शाबाश! तुमने अध्याय ${m + 1} पूरा किया।` : `Well done! You finished Chapter ${m + 1}.`}</b> ${LEVEL === 1 ? T('Now play the picture game!') : T('Test yourself before you move on.')}`);
   }
   if (el.classList.contains('tipmark') && !pageFlags.tip && LEVEL === 2) {
     pageFlags.tip = true; const t = DYK()[dykI++ % DYK().length];
@@ -128,7 +128,7 @@ function decorate() {
 }
 new MutationObserver(decorate).observe(document.getElementById('app'), { childList: true });
 
-// ── quiz cheers ──
+// ── practice cheers ──
 document.addEventListener('click', e => {
   const t = e.target.closest('[data-mark],[data-pick]'); if (!t) return;
   setTimeout(() => {

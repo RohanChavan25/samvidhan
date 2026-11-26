@@ -127,15 +127,16 @@ window.openPerson = function (id) {
   $('#sheet').hidden = false; $('#sheet .x').focus();
 };
 
+// After the book closes, a first-time reader picks an age group
+const _enter = window.enter;
+window.enter = function () { _enter(); if (!LEVEL) showChooser(true); };
+
 // ── 7. events ──
 document.addEventListener('click', e => {
   const t = e.target.closest('[data-setlevel],[data-chooser],[data-closechooser],[data-pick],[data-nextq]');
   if (!t) return;
   if (t.dataset.setlevel) {
-    const first = !LEVEL || $('.chooser').dataset.first === '1';
-    setLevel(Number(t.dataset.setlevel)); $('#open').hidden = true; render();
-    let entered = false; try { entered = sessionStorage.getItem('sqp:entered') === '1'; } catch (err) {}
-    if (first && !entered) showOpening();
+      setLevel(Number(t.dataset.setlevel)); $('#open').hidden = true; render();
     return;
   }
   if ('chooser' in t.dataset) return showChooser(false);
@@ -149,6 +150,6 @@ document.body.dataset.lv = LEVEL || 2;
 render();
 (function () {
   let entered = false; try { entered = sessionStorage.getItem('sqp:entered') === '1'; } catch (e) {}
-  if (!LEVEL) showChooser(true);
-  else if (!entered && (!location.hash || location.hash === '#home')) showOpening();
+  if (!entered) showOpening();
+  else if (!LEVEL) showChooser(true);
 })();

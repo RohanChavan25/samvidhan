@@ -1,5 +1,5 @@
 // SAMVIDHAN — AGE LEVELS (loaded last)
-// Level 1: under 10 (picture stories + picture quiz). Level 2: 10 to 14 (the full illustrated course).
+// Level 1: under 10 (picture stories + picture game). Level 2: 10 to 14 (the full illustrated course).
 // Level 3: 14 and above (everything, plus big ideas, questions to think about, and where sources disagree).
 // The choice is saved per device; no content lives here.
 
@@ -41,11 +41,11 @@ window.showOpening = function () {
 // ── 3. Home ──
 const _viewHome = window.viewHome;
 window.viewHome = function () {
-  if (LEVEL !== 1) return _viewHome().replace(T('days to the prelim'), T('days to the #ReclaimConstitution Quiz prelim'));
+  if (LEVEL !== 1) return _viewHome();
   const prog = store.get('prog', {});
   return `${LANG === 'hi' ? header('विषय-सूची', 'Contents', false) : header('Contents', 'विषय-सूची', false)}<main class="wrap">
     <section class="panel kidhello"><img class="blot" src="scene-s/hall-first-day.webp" alt=""><div><b>${T('Hello! Let’s learn about our Constitution.')}</b><span>${T('Tap a chapter to see its picture story.')}</span></div>
-    <a class="btn s" href="#practice-kids">${T('Play the picture quiz')}</a></section>
+    <a class="btn s" href="#practice-kids">${T('Play the picture game')}</a></section>
     <nav class="chapters kchap">${DB.modules.map((m, i) => { const p = prog['kids-' + m.id];
       return `<a class="panel chap" href="#${m.id}"><img class="illus" src="${esc(((DB.kids[m.id] || []).find(k => !/^face\//.test(k.img)) || {}).img || DB.book.hero[m.id])}" alt="" loading="lazy"><span class="chap-t"><small>${T('Chapter')} ${i + 1}</small><strong>${esc(m.title)}</strong>${hiTxt(m.hi)}</span>${p ? `<span class="score">${T('Best')} ${p.best}/${p.of}</span>` : ''}</a>`; }).join('')}</nav>
     <p class="foot">${T('Every fact is checked against the Constituent Assembly Debates, the Constitution’s text or official records, and names its source.')}</p></main>`;
@@ -75,14 +75,14 @@ window.viewModule = function (id) {
   const m = DB.modules.find(x => x.id === id), i = DB.modules.indexOf(m), next = DB.modules[i + 1], art = DB.book.hero[id];
   return `${header(`${i + 1}. ${esc(m.title)}`, m.hi)}<main class="wrap kids">${art ? `<figure class="hero"><img src="${esc(art)}" alt=""><figcaption><small>${T('Chapter')} ${i + 1}</small><b>${esc(m.title)}</b>${hiTxt(m.hi)}</figcaption></figure>` : ''}
     <ol class="kgrid">${(DB.kids[id] || []).map(kidCard).join('')}</ol>
-    <section class="endcard"><div class="in"><h2>${T('Picture quiz')}</h2><p>${T('Three choices. Tap the right one!')}</p>
+    <section class="endcard"><div class="in"><h2>${T('Picture game')}</h2><p>${T('Three choices. Tap the right one!')}</p>
     <div class="cta"><a class="btn s" href="#practice-kids-${id}">${T('Play')}</a>${next ? `<a class="btn ghost" href="#${next.id}">${LANG === 'hi' ? 'अगला' : 'Next'}: ${esc(next.title)} →</a>` : ''}</div></div></section></main>`;
 };
 // Court-ruling notes under the Preamble timeline are for 14 and above
 const _posterCard = window.posterCard;
 window.posterCard = function (c, notes) { return _posterCard(c, c.id === 'P16' && LEVEL < 3 ? null : notes); };
 
-// ── 5. Picture quiz (three choices) for little learners ──
+// ── 5. Picture game (three choices) for little learners ──
 function kidsBank(mid) {
   const mods = mid ? [mid] : Object.keys(DB.kids);
   const qs = [];
@@ -103,7 +103,7 @@ window.startPractice = function (key) {
 const _viewPractice = window.viewPractice;
 window.viewPractice = function () {
   if (!run.key.startsWith('kids')) return _viewPractice();
-  const title = T('Picture quiz');
+  const title = T('Picture game');
   if (run.i >= run.qs.length) {
     const pk = 'kids-' + (run.mid || 'all'), prog = store.get('prog', {}); if (!prog[pk] || run.right > prog[pk].best) { prog[pk] = { best: run.right, of: run.qs.length }; store.set('prog', prog); }
     return `${header(title)}<main class="wrap narrow"><section class="panel done"><b>${run.right}/${run.qs.length}</b><p>${run.right === run.qs.length ? T('Full marks.') : T('Well done! Play again to get them all right.')}</p><div class="cta"><button class="btn s" data-again>${T('Another round')}</button><a class="btn ghost" href="#home">${T('Home')}</a></div></section></main>`;

@@ -1437,3 +1437,10 @@ Learn each person as a set of clues: a place, a date, a job, a famous line and a
 - *disputes added:* when the Assembly “began its work” (9 vs 13 Dec 1946); 165 vs 167 days and 17 vs 18 days (Lok Sabha and Rajya Sabha Constituent Assembly pages say 165 days, 2 years 11 months 17 days).
 - *readings:* this site keeps the PIB/PRS numbering of the three readings; Module 7 materials from the other chat use constitutionofindia.net’s numbering. Both are recorded under disputes.
 - *Hindi:* 740 new lines. Parts, Schedules and article headings follow the official Hindi text (भाग, अनुच्छेद, अनुसूची, लोप, संघ सूची, समवर्ती सूची, राज्य की नीति के निदेशक तत्त्व, मूल कर्तव्य). Number check: 0 mismatches.
+
+
+# v0.8 · 26 Nov 2026 · made universal
+- Removed every reference to the #ReclaimConstitution quiz: the countdown to the prelim, “Quiz Prep” in the header, “Think like a quizmaster”, and lines such as “a favourite quiz question” or “check before the quiz”.
+- Chapter 8 “Quizmaster corner” is now “Test yourself” (ख़ुद को परखो). Practice questions, “Who am I?” cards and the picture game for under-10s stay, as learning tools.
+- Labels renamed: Quiz trap → Watch out (ध्यान दो); Quiz traps → Easy to mix up (आम उलझनें); Quiz clue → Clue (सुराग); Quiz fact → Remember (याद रखो); Picture quiz → Picture game (चित्र-खेल).
+- No facts changed.

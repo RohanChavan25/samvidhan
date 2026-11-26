@@ -1,8 +1,8 @@
 {
  "meta": {
   "title": "Samvidhan: the Constitution of India, for every student",
-  "version": "0.7",
-  "date": "1 Nov 2026",
+  "version": "0.8",
+  "date": "26 Nov 2026",
   "note": "One record per person, event and idea. Modules point to ids. Content only: no HTML, no code.",
   "languages": [
    "en",
@@ -1037,14 +1037,10 @@
   },
   {
    "id": "m8",
-   "title": "Quizmaster corner",
-   "hi": "क्विज़ मास्टर कोना",
+   "title": "Test yourself",
+   "hi": "ख़ुद को परखो",
    "span": "Practise",
    "sections": [
-    {
-     "type": "concept",
-     "ref": "quizmaster"
-    },
     {
      "type": "connects",
      "ref": "all"
@@ -1922,8 +1918,8 @@
    ],
    "status": "ok",
    "story": {
-    "text": "The debates were lively. Members disagreed, voted and changed the draft. Some lines from these debates are famous quiz questions today.",
-    "tagline": "Who said it? A favourite quiz question!",
+    "text": "The debates were lively. Members disagreed, voted and changed the draft. Some lines from these debates are still quoted today.",
+    "tagline": "Who said it? Can you guess?",
     "from": "m3-26"
    },
    "onPoster": true,
@@ -4404,7 +4400,7 @@
   {
    "id": "two-lists",
    "title": "Two lists of women",
-   "text": "Membership changed over time, for example after Partition. Achyut Chetan’s list from when the Assembly was formed includes Begum Jahanara Shahnawaz and Begum Shaista Suhrawardy Ikramullah, who are not on the usual list of 15. Renuka Ray joined after Bengal’s seats went to East Pakistan (July 1947); Annie Mascarene joined in December 1948. In a quiz, “15 women” is the standard answer, but read the question carefully.",
+   "text": "Membership changed over time, for example after Partition. Achyut Chetan’s list from when the Assembly was formed includes Begum Jahanara Shahnawaz and Begum Shaista Suhrawardy Ikramullah, who are not on the usual list of 15. Renuka Ray joined after Bengal’s seats went to East Pakistan (July 1947); Annie Mascarene joined in December 1948. “15 women” is the usual count; if you see a different number, check which list it comes from.",
    "src": [
     "cup-chetan",
     "coi-women"
@@ -4480,7 +4476,7 @@
   {
    "id": "ten-makers",
    "title": "The 10 Makers",
-   "text": "The quiz organisers recommend Karthik Venkatesh’s book 10 Makers of the Indian Constitution (2025). Its ten: Ambedkar, Nehru, Jaipal Singh Munda, Alladi Krishnaswami Ayyar, K.M. Munshi, Hansa Mehta, Dakshayani Velayudhan, G. Durgabai, Hasrat Mohani and J.J.M. Nichols Roy.",
+   "text": "Karthik Venkatesh’s book 10 Makers of the Indian Constitution (2025) tells the stories of ten members: Ambedkar, Nehru, Jaipal Singh Munda, Alladi Krishnaswami Ayyar, K.M. Munshi, Hansa Mehta, Dakshayani Velayudhan, G. Durgabai, Hasrat Mohani and J.J.M. Nichols Roy.",
    "src": [
     "penguin-10makers"
    ],
@@ -4505,23 +4501,6 @@
    ],
    "img": [
     "new-readings"
-   ]
-  },
-  {
-   "id": "quizmaster",
-   "title": "Think like a quizmaster",
-   "text": "Learn each person as a set of clues: a place, a date, a job, a famous line and a later role. Question types: Who am I? (clues from hardest to easiest), Connect (find the hidden link), Odd one out, Numbers, Who said it?, Later life, Work it out.",
-   "src": [],
-   "from": [
-    "m3-30",
-    "m4-17",
-    "M16"
-   ],
-   "img": [
-    "M16",
-    "M16-full",
-    "m3-30",
-    "m4-17"
    ]
   }
  ],
@@ -4887,7 +4866,7 @@
     "The people own it. This is why 26 November is Constitution Day.",
     "Like in school",
     "The class signs its own rulebook, so everyone owns it.",
-    "Quiz trap: the date inside the Preamble is 26 Nov 1949, not 26 Jan 1950."
+    "Watch out: the date inside the Preamble is 26 Nov 1949, not 26 Jan 1950."
    ],
    "srcText": "Constitution of India, Preamble (official text, as on 1 May 2026); Hindi Preamble text",
    "img": [
@@ -5019,10 +4998,10 @@
   },
   {
    "id": "P18",
-   "title": "Quick quiz facts (1)",
+   "title": "Quick facts (1)",
    "hi": "प्रश्नोत्तरी",
    "lines": [
-    "Quick quiz facts (1)",
+    "Quick facts (1)",
     "प्रश्नोत्तरी",
     "(Prashnottari)",
     "Preamble in the official Hindi text?",
@@ -5051,10 +5030,10 @@
   },
   {
    "id": "P19",
-   "title": "Quick quiz facts (2)",
+   "title": "Quick facts (2)",
    "hi": "प्रश्नोत्तरी",
    "lines": [
-    "Quick quiz facts (2)",
+    "Quick facts (2)",
     "प्रश्नोत्तरी",
     "(Prashnottari)",
     "“Key to open the mind of the makers”?",
@@ -5386,7 +5365,7 @@
  "traps": [
   "The Preamble’s date is 26 November 1949, not 26 January 1950.",
   "Adopted and enacted on the same day (26 Nov 1949); 26 Jan 1950 is when it came into force.",
-  "“15 women” is the standard answer, but Chetan’s formation-day list differs. Read the question.",
+  "“15 women” is the usual count, but Chetan’s formation-day list differs.",
   "Leela Roy (resigned against Partition) and Malati Choudhury (resigned to work with Gandhi) are still on the standard list of 15.",
   "Gandhi was not a member of the Constituent Assembly.",
   "“Fraternity” was not in the Objectives Resolution; the Drafting Committee added it.",
@@ -5408,7 +5387,7 @@
    ],
    "topic": "people",
    "type": "who-am-i",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-02",
@@ -5420,7 +5399,7 @@
    ],
    "topic": "people",
    "type": "who-am-i",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-03",
@@ -5432,7 +5411,7 @@
    ],
    "topic": "people",
    "type": "connect",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-04",
@@ -5444,7 +5423,7 @@
    ],
    "topic": "people",
    "type": "odd-one-out",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-05",
@@ -5457,19 +5436,19 @@
    ],
    "topic": "people",
    "type": "numbers",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-06",
    "q": "Ambedkar said \"much greater share of the credit\" should go to the Chief Draftsman. Who?",
    "a": "S.N. Mukherjee",
-   "why": "A \"backstage hero\" question: the quizmaster likes surprises.",
+   "why": "A \"backstage hero\": less famous than the Drafting Committee, but Ambedkar himself gave him credit.",
    "src": [
     "cad-1949-11-25"
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-07",
@@ -5481,7 +5460,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-08",
@@ -5493,7 +5472,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-09",
@@ -5505,7 +5484,7 @@
    ],
    "topic": "people",
    "type": "who-am-i",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-10",
@@ -5517,7 +5496,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-11",
@@ -5529,7 +5508,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-12",
@@ -5541,7 +5520,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-13",
@@ -5553,7 +5532,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-14",
@@ -5565,7 +5544,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-15",
@@ -5578,7 +5557,7 @@
    ],
    "topic": "people",
    "type": "work-it-out",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-16",
@@ -5590,7 +5569,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m3-17",
@@ -5602,7 +5581,7 @@
    ],
    "topic": "people",
    "type": "numbers",
-   "from": "Module 3 quiz"
+   "from": "Module 3 questions"
   },
   {
    "id": "q-m4-01",
@@ -5614,7 +5593,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-02",
@@ -5626,7 +5605,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-03",
@@ -5638,7 +5617,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-04",
@@ -5650,7 +5629,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-05",
@@ -5662,7 +5641,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-06",
@@ -5674,7 +5653,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-07",
@@ -5686,7 +5665,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-08",
@@ -5699,7 +5678,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-09",
@@ -5711,7 +5690,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-10",
@@ -5723,7 +5702,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-11",
@@ -5735,7 +5714,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-12",
@@ -5747,7 +5726,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-13",
@@ -5759,7 +5738,7 @@
    ],
    "topic": "people",
    "type": "fact",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-m4-14",
@@ -5771,7 +5750,7 @@
    ],
    "topic": "people",
    "type": "connect",
-   "from": "Module 4 quiz"
+   "from": "Module 4 questions"
   },
   {
    "id": "q-p18-1",
@@ -6176,7 +6155,7 @@
    ],
    "topic": "preamble",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-02",
@@ -6188,7 +6167,7 @@
    ],
    "topic": "preamble",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-04",
@@ -6200,7 +6179,7 @@
    ],
    "topic": "preamble",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-05",
@@ -6212,7 +6191,7 @@
    ],
    "topic": "preamble",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-06",
@@ -6224,7 +6203,7 @@
    ],
    "topic": "preamble",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-07",
@@ -6236,7 +6215,7 @@
    ],
    "topic": "rights",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-08",
@@ -6248,7 +6227,7 @@
    ],
    "topic": "rights",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-09",
@@ -6260,7 +6239,7 @@
    ],
    "topic": "rights",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-10",
@@ -6272,7 +6251,7 @@
    ],
    "topic": "rights",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-11",
@@ -6284,7 +6263,7 @@
    ],
    "topic": "rights",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-12",
@@ -6296,7 +6275,7 @@
    ],
    "topic": "rights",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-13",
@@ -6308,7 +6287,7 @@
    ],
    "topic": "rights",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-14",
@@ -6320,7 +6299,7 @@
    ],
    "topic": "book",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-15",
@@ -6332,7 +6311,7 @@
    ],
    "topic": "book",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-16",
@@ -6344,7 +6323,7 @@
    ],
    "topic": "book",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-17",
@@ -6356,7 +6335,7 @@
    ],
    "topic": "preamble",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-m6-18",
@@ -6368,7 +6347,7 @@
    ],
    "topic": "book",
    "type": "fact",
-   "from": "Module 6 quiz"
+   "from": "Module 6 questions"
   },
   {
    "id": "q-new-16",
@@ -7039,7 +7018,7 @@
    "id": "P01",
    "kind": "typeset",
    "attach": "P01",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P01.webp",
    "note": ""
@@ -7069,7 +7048,7 @@
    "id": "P02",
    "kind": "typeset",
    "attach": "P02",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P02.webp",
    "note": ""
@@ -7099,7 +7078,7 @@
    "id": "P03",
    "kind": "typeset",
    "attach": "P03",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P03.webp",
    "note": ""
@@ -7129,7 +7108,7 @@
    "id": "P04",
    "kind": "typeset",
    "attach": "P04",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P04.webp",
    "note": ""
@@ -7159,7 +7138,7 @@
    "id": "P05",
    "kind": "typeset",
    "attach": "P05",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P05.webp",
    "note": ""
@@ -7189,7 +7168,7 @@
    "id": "P06",
    "kind": "typeset",
    "attach": "P06",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P06.webp",
    "note": ""
@@ -7219,7 +7198,7 @@
    "id": "P07",
    "kind": "typeset",
    "attach": "P07",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P07.webp",
    "note": ""
@@ -7249,7 +7228,7 @@
    "id": "P08",
    "kind": "typeset",
    "attach": "P08",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P08.webp",
    "note": ""
@@ -7279,7 +7258,7 @@
    "id": "P09",
    "kind": "typeset",
    "attach": "P09",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P09.webp",
    "note": ""
@@ -7309,7 +7288,7 @@
    "id": "P10",
    "kind": "typeset",
    "attach": "P10",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P10.webp",
    "note": ""
@@ -7339,7 +7318,7 @@
    "id": "P11",
    "kind": "typeset",
    "attach": "P11",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P11.webp",
    "note": ""
@@ -7369,7 +7348,7 @@
    "id": "P12",
    "kind": "typeset",
    "attach": "P12",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P12.webp",
    "note": ""
@@ -7399,7 +7378,7 @@
    "id": "P13",
    "kind": "typeset",
    "attach": "P13",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P13.webp",
    "note": ""
@@ -7429,7 +7408,7 @@
    "id": "P14",
    "kind": "typeset",
    "attach": "P14",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P14.webp",
    "note": ""
@@ -7459,7 +7438,7 @@
    "id": "P15",
    "kind": "typeset",
    "attach": "P15",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P15.webp",
    "note": ""
@@ -7489,7 +7468,7 @@
    "id": "P16",
    "kind": "typeset",
    "attach": "P16",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P16.webp",
    "note": ""
@@ -7519,7 +7498,7 @@
    "id": "P17",
    "kind": "typeset",
    "attach": "P17",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P17.webp",
    "note": ""
@@ -7549,7 +7528,7 @@
    "id": "P18",
    "kind": "typeset",
    "attach": "P18",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P18.webp",
    "note": ""
@@ -7579,7 +7558,7 @@
    "id": "P19",
    "kind": "typeset",
    "attach": "P19",
-   "origin": "Constitution Quiz Image Cards gallery (PNG ready)",
+   "origin": "Constitution Image Cards gallery (PNG ready)",
    "file": null,
    "saveAs": "img/P19.webp",
    "note": ""
@@ -9285,7 +9264,7 @@
     "31A–31C Saving of certain laws · 32–35 Constitutional Remedies",
     "Article 31 (property) is omitted. Some articles are for every person (14, 20, 21, 25); some only for citizens (15, 19)."
    ],
-   "story": "Part III is arranged under headings. Knowing which article sits under which heading answers many quiz questions.",
+   "story": "Part III is arranged under headings. Knowing which article sits under which heading helps you find any right quickly.",
    "tagline": "Learn the floors of Part III!",
    "src": [
     "m6:P1",
@@ -9357,7 +9336,7 @@
     "2 December 1948: “reasonable restrictions” added, so courts can strike down unfair limits.",
     "1951: the First Amendment added grounds such as “public order” and “friendly relations with foreign States”."
    ],
-   "story": "Quiz trap: Article 19 jumps from (e) to (g). The missing (f) was the right to property.",
+   "story": "Watch out: Article 19 jumps from (e) to (g). The missing (f) was the right to property.",
    "tagline": "Six freedoms, a, b, c, d, e, g!",
    "src": [
     "m6:R7",
@@ -9537,7 +9516,7 @@
     "Today: numbers still run to 395, but inserted articles (like 21A, 51A, 394A) take the total over 400.",
     "Parts today: I to XXII, plus IVA, IXA, IXB and XIVA; Part VII has been omitted.",
     "12 Schedules today: the 9th (1951), and later the 10th (anti-defection), 11th (Panchayats) and 12th (Municipalities) were added.",
-    "The official text as on 1 May 2026 still lists the 106th Amendment (2023) as the latest. Check for any new one before the quiz."
+    "The official text as on 1 May 2026 still lists the 106th Amendment (2023) as the latest. Check the official text for any newer one."
    ],
    "story": "Instead of renumbering, new articles and Parts get letters. That is why the last article is still 395.",
    "tagline": "Letters, not new numbers!",
@@ -10241,7 +10220,7 @@
    "gets": [
     "Picture stories, one or two lines each",
     "Meet the people who wrote our Constitution",
-    "A picture quiz with three choices"
+    "A picture game with three choices"
    ],
    "learn": [
     "What a constitution is",
@@ -10258,7 +10237,7 @@
    "gets": [
     "Glimpses, timelines and illustrated cards",
     "Every key date, number and person",
-    "Practice questions and quiz traps"
+    "Practice questions and common mix-ups"
    ],
    "learn": [
     "How the Constitution was made, step by step",
@@ -10819,7 +10798,7 @@
    },
    {
     "img": "art/frontis.webp",
-    "text": "Now play the picture quiz! Look at each picture or question and pick the right answer.",
+    "text": "Now play the picture game! Look at each picture or question and pick the right answer.",
     "src": []
    }
   ],
@@ -11413,7 +11392,7 @@
       "title": "Fundamental duties",
       "j": "Eleven promises every citizen makes to India.",
       "m": "(a) abide by the Constitution, respect the National Flag and Anthem; (b) follow the ideals of the freedom struggle; (c) protect India’s sovereignty, unity and integrity; (d) defend the country; (e) promote harmony and respect women’s dignity; (f) preserve our composite culture; (g) protect the environment and have compassion for living creatures; (h) develop scientific temper; (i) safeguard public property and avoid violence; (j) strive for excellence; (k) parents to give children aged 6–14 opportunities for education.",
-      "s": "Duty (k) is the only one addressed to parents or guardians. Duty (h) “scientific temper, humanism and the spirit of inquiry and reform” is a frequent quiz item."
+      "s": "Duty (k) is the only one addressed to parents or guardians. Duty (h) asks every citizen to develop “scientific temper, humanism and the spirit of inquiry and reform”."
      }
     ],
     "trap": "The whole Part is a single article: 51A.",
@@ -12268,7 +12247,7 @@
      "Today: 28 States and 8 Union Territories.",
      "States, in the order listed: Andhra Pradesh, Assam, Bihar, Gujarat, Kerala, Madhya Pradesh, Tamil Nadu, Maharashtra, Karnataka, Odisha, Punjab, Rajasthan, Uttar Pradesh, West Bengal, Nagaland, Haryana, Himachal Pradesh, Manipur, Tripura, Meghalaya, Sikkim, Mizoram, Arunachal Pradesh, Goa, Chhattisgarh, Uttarakhand, Jharkhand, Telangana.",
      "Union Territories: Delhi, Andaman and Nicobar Islands, Lakshadweep, Dadra and Nagar Haveli and Daman and Diu, Puducherry, Chandigarh, Jammu and Kashmir, Ladakh.",
-     "Quiz trap: in the official numbering of Union Territories there is no number 5 (the list goes 4, 6 …)."
+     "Watch out: in the official numbering of Union Territories there is no number 5 (the list goes 4, 6 …)."
     ],
     "history": [
      "In the Schedule as adopted: four groups. Part A (9 States): Assam, Bihar, Bombay, Madhya Pradesh, Madras, Orissa, Punjab, United Provinces, West Bengal. Part B (9 States): Hyderabad, Jammu and Kashmir, Madhya Bharat, Mysore, Patiala and East Punjab States Union, Rajasthan, Saurashtra, Travancore-Cochin, Vindhya Pradesh. Part C (10 States): Ajmer, Bhopal, Bilaspur, Cooch-Behar, Coorg, Delhi, Himachal Pradesh, Kutch, Manipur, Tripura. Part D: the Andaman and Nicobar Islands.",
@@ -12356,7 +12335,7 @@
      "Form IV: Supreme Court judges and the CAG: “without fear or favour, affection or ill-will”.",
      "Form V and VI: State Minister (office and secrecy). Form VII-A and VII-B: candidate for and member of a State Legislature. Form VIII: High Court judges.",
      "Every form offers a choice: “swear in the name of God” or “solemnly affirm”.",
-     "Quiz trap: the President’s and Vice-President’s oaths are not in this Schedule (they are in their own articles)."
+     "Watch out: the President’s and Vice-President’s oaths are not in this Schedule (they are in their own articles)."
     ],
     "history": [
      "The 1948 Draft said “solemnly affirm (or swear)”. Members asked that swearing in God’s name come first; the Assembly agreed.",

@@ -1,8 +1,7 @@
-// SAMVIDHAN QUIZ PREP — APPLICATION LOGIC
+// SAMVIDHAN — APPLICATION LOGIC
 // Rule: no content here. Reads DB (data.js) and renders. Content change = edit data.js only.
 // Poster artwork is used once, as illustration; every word on screen comes from DB, so nothing is shown twice.
 
-const PRELIM = new Date('2026-11-26T11:00:00+05:30');
 const P = DB.people;
 const EV = Object.fromEntries(DB.events.map(e => [e.id, e]));
 const CO = Object.fromEntries(DB.concepts.map(c => [c.id, c]));
@@ -16,7 +15,7 @@ const MOD_ART = DB.book.hero;
 const GROUP_LABEL = { big4: T('The big four'), makers10: T('The 10 Makers'), women15: T('The 15 women members'), officers: T('Officers, advisers and other leaders') };
 const FIELDS = ([['born', 'Born', ''], ['died', 'Died', ''], ['education', 'Education / profession', ''], ['entry', 'Entry into the freedom struggle / public life', ''],
   ['milestones', 'Milestones before 1947', ''], ['knownFor', 'Known for', 'known'], ['assembly', 'In the Constituent Assembly', ''],
-  ['contribution', 'Contribution to the Constitution', 'contrib'], ['after', 'After independence', ''], ['quizClue', 'Quiz clue', 'clue']]).map(([k, l, c]) => [k, T(l), c]);
+  ['contribution', 'Contribution to the Constitution', 'contrib'], ['after', 'After independence', ''], ['quizClue', 'Clue', 'clue']]).map(([k, l, c]) => [k, T(l), c]);
 const PAGE_SHOWN = new Set();
 const PRE_LABELS = new Set(['Meaning', 'Example', 'Like in school', 'Promise kept in', 'In Hindi', 'Why it matters', 'Did you know?', 'Adopt', 'Enact', 'Give to ourselves'].map(T));
 const MITHU = T('Mithu says: ');
@@ -88,7 +87,7 @@ function enter() { clearInterval(op.timer); $('#open').hidden = true; try { sess
 // ── shared bits ──
 function header(title, hi, back = true) {
   return `<header class="bar"><div class="bar-in">${back ? '<a class="iconbtn" href="#home" aria-label="All modules">←</a>' : ''}
-    <div class="bar-t"><small>${T('Samvidhan Quiz Prep')}</small><strong>${title}</strong>${hi ? hiTxt(hi) : ''}</div>
+    <div class="bar-t"><small>${T('Samvidhan')}</small><strong>${title}</strong>${hi ? hiTxt(hi) : ''}</div>
     ${langBtn()}<button class="iconbtn" data-facts aria-label="Show the opening facts">${T('Facts')}</button></div></header>`;
 }
 // Names inside a sentence become the link to that person's profile, so a name is not printed twice (text + button).
@@ -143,7 +142,7 @@ function preambleCard(c) {
     const [quote, who, ...rest] = L.slice(k + 1);
     body = `<p class="quote">“${esc(quote)}”<small>${esc(who)}</small></p><ul class="rows">${rest.map(l => `<li>${esc(l)}</li>`).join('')}</ul>`;
   } else {
-    let i = L.findIndex(l => PRE_LABELS.has(l)); const rows = []; let trap = ''; const QT = T('Quiz trap');
+    let i = L.findIndex(l => PRE_LABELS.has(l)); const rows = []; let trap = ''; const QT = T('Watch out');
     while (i > -1 && i < L.length) {
       if (L[i].startsWith(QT)) { trap = L[i]; i++; continue; }
       if (PRE_LABELS.has(L[i])) {
@@ -192,7 +191,7 @@ function renderSection(s) {
   }
   if (t === 'firsts') return `<h2 class="sec">${T('Later “firsts”')}</h2><ul class="cast">${DB.firsts.map(f => `<li class="panel"><strong>${esc(f.title)}</strong><span><button class="linkbtn" data-person="${f.person}">${esc(pname(f.person))}</button>${f.detail ? ' · ' + esc(f.detail) : ''}</span></li>`).join('')}</ul>`;
   if (t === 'connects') return `<h2 class="sec">${T('Find the connection')}</h2><div class="conn">${DB.connects.map(c => `<details class="panel"><summary>${c.items.map(x => esc(P[x] ? pname(x) : x)).join(' · ')}</summary><p>${T('Link: ')}${esc(c.link)}</p></details>`).join('')}</div>`;
-  if (t === 'traps') return `<h2 class="sec">${T('Quiz traps')}</h2><ul class="traps">${DB.traps.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
+  if (t === 'traps') return `<h2 class="sec">${T('Easy to mix up')}</h2><ul class="traps">${DB.traps.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
   if (t === 'structure') return renderStructure(r);
   if (t === 'quiz') return `<div class="cta"><a class="btn s" href="#practice-m8">${T('Mixed practice · 10 questions')}</a><a class="btn ghost" href="#cards">${T('Who am I? cards')}</a></div>`;
   return '';
@@ -213,7 +212,7 @@ function renderStructure(r) {
       <div class="mithu"><p><b style="color:var(--navy-ink)">${T('Memory tricks')}</b></p><ul class="rows" style="margin-top:6px">${o.memory_tricks.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>`;
   }
   if (r === 'parts') return `<h2 class="sec">${T('The Parts, one by one')}</h2><p class="lede">${T('Tap a Part to open it.')}</p><div class="stlist">${S.parts.map(p => `<details class="panel st${p.status === 'omitted' ? ' gone' : ''}"><summary><span class="sid">${T('Part')} ${esc(p.id)}</span><span class="st-t"><b>${esc(p.title)}</b><small>${p.status === 'omitted' ? T('Omitted') : `${T('Articles')} ${esc(p.articles)}`}${p.status === 'in force (added later)' ? ' · ' + T('added later') : ''}</small></span></summary>
-      <div class="st-b">${p.img ? `<img class="illus st-img" src="${esc(p.img)}" alt="" loading="lazy">` : ''}<p>${esc(tx(p))}</p>${p.arts.length ? `<ul class="arts">${p.arts.map(a => `<li><b>${art(a.no)}</b> <i>${esc(a.title)}</i><span>${esc(tx(a))}</span></li>`).join('')}</ul>` : ''}${deep && p.trap ? `<p class="note"><b>${T('Quiz fact:')}</b> ${esc(p.trap)}</p>` : ''}${srcLine(p.src)}</div></details>`).join('')}</div>`;
+      <div class="st-b">${p.img ? `<img class="illus st-img" src="${esc(p.img)}" alt="" loading="lazy">` : ''}<p>${esc(tx(p))}</p>${p.arts.length ? `<ul class="arts">${p.arts.map(a => `<li><b>${art(a.no)}</b> <i>${esc(a.title)}</i><span>${esc(tx(a))}</span></li>`).join('')}</ul>` : ''}${deep && p.trap ? `<p class="note"><b>${T('Remember:')}</b> ${esc(p.trap)}</p>` : ''}${srcLine(p.src)}</div></details>`).join('')}</div>`;
   if (r === 'schedules') return `<h2 class="sec">${T('The 12 Schedules')}</h2><p class="lede">${T('Schedules are the lists and tables at the back of the book.')}</p><div class="stlist">${S.schedules.map(x => `<details class="panel st"><summary><span class="sid">${esc(String(x.no))}</span><span class="st-t"><b>${esc(x.name)} ${hiTxt(x.hi)}</b><small>${esc(x.theme)}</small></span></summary>
       <div class="st-b">${x.img ? `<img class="illus st-img" src="${esc(x.img)}" alt="" loading="lazy">` : ''}<p>${esc(tx(x))}</p><ul class="rows">${(deep ? x.facts : x.facts.slice(0, 4)).map(f => `<li>${esc(f)}</li>`).join('')}</ul>${deep && x.history.length ? `<p class="note"><b>${T('History:')}</b> ${x.history.map(esc).join(' ')}</p>` : ''}${deep && x.linked.length ? `<p class="note"><b>${T('Linked articles:')}</b> ${x.linked.map(esc).join(', ')}</p>` : ''}${srcLine(x.src)}</div></details>`).join('')}</div>`;
   return '';
@@ -221,10 +220,8 @@ function renderStructure(r) {
 
 // ── views ──
 function viewHome() {
-  const days = Math.max(0, Math.ceil((PRELIM - new Date()) / 864e5));
   const prog = store.get('prog', {}), misses = store.get('misses', []);
-  return `${header('Learn, then test yourself', 'संविधान क्विज़ की तैयारी', false)}<main class="wrap">
-    <section class="panel count"><b>${days}</b><span>days to the prelim<br>26 November · 11:00 am, online</span></section>
+  return `${header('Learn, then test yourself', 'संविधान', false)}<main class="wrap">
     <div class="cta"><a class="btn s" href="#practice-m8">Mixed practice · 10 questions</a>${misses.length ? `<a class="btn ghost" href="#practice-misses">Revise my misses (${misses.length})</a>` : ''}<a class="btn ghost" href="#cards">Who am I? cards</a></div>
     <h2 class="sec">Modules</h2>
     <nav class="mods">${DB.modules.map((m, i) => { const p = prog[m.id];
@@ -268,7 +265,7 @@ function viewCards() {
   return `${LANG === 'hi' ? header('मैं कौन हूँ? कार्ड', 'Who am I? cards') : header('Who am I? cards', 'मैं कौन हूँ?')}<main class="wrap"><p class="qn">${LANG === 'hi' ? `कार्ड ${deck.i + 1} / ${deck.list.length}` : `Card ${deck.i + 1} of ${deck.list.length}`}</p>
     <button class="flash${deck.flip ? ' flipped' : ''}" data-flip aria-label="Flip card">${deck.flip
       ? `${p.face ? `<img src="${esc(p.face)}" alt="">` : ''}<strong>${esc(p.name)}</strong>${hiTxt(p.hi)}<small>${esc(p.profile.knownFor)}</small>`
-      : `<span class="badge">${T('Quiz clue')}</span><span class="clue">${esc(p.profile.quizClue)}</span><small>${T('Tap to see who')}</small>`}</button>
+      : `<span class="badge">${T('Clue')}</span><span class="clue">${esc(p.profile.quizClue)}</span><small>${T('Tap to see who')}</small>`}</button>
     <div class="cta"><button class="btn ghost" data-card="-1">${T('← Previous')}</button><button class="btn s" data-card="1">${T('Next →')}</button></div></main>`;
 }
 function openPerson(id) {

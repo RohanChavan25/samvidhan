@@ -1,4 +1,4 @@
-// SAMVIDHAN QUIZ PREP — STORY LAYER v2
+// SAMVIDHAN — STORY LAYER v2
 // Hand-drawn cover, illuminated front page, page turns, Constitution Hall doors, glimpse reels, life windows.
 // Pictures are illustrations only; every word on screen comes from DB.
 
@@ -106,14 +106,12 @@ function goChapter(id) { enter(); location.hash = id; }
 
 // ── 2. Home = the contents page ──
 window.viewHome = function () {
-  const days = Math.max(0, Math.ceil((PRELIM - new Date()) / 864e5));
   const prog = store.get('prog', {}), misses = store.get('misses', []);
   return `${LANG === 'hi' ? header('विषय-सूची', 'Contents', false) : header('Contents', 'विषय-सूची', false)}<main class="wrap">
-    <section class="panel count"><b>${days}</b><span>${T('days to the prelim')}<br>${T('26 November · 11:00 am, online')}</span><button class="btn ghost" data-facts style="margin-left:auto">${T('Open the book')}</button></section>
-    <div class="cta"><a class="btn s" href="#practice-m8">${T('Mixed practice · 10 questions')}</a>${misses.length ? `<a class="btn ghost" href="#practice-misses">${T('Revise my misses')} (${misses.length})</a>` : ''}<a class="btn ghost" href="#cards">${T('Who am I? cards')}</a></div>
+    <div class="cta"><button class="btn ghost" data-facts>${T('Open the book')}</button><a class="btn s" href="#practice-m8">${T('Mixed practice · 10 questions')}</a>${misses.length ? `<a class="btn ghost" href="#practice-misses">${T('Revise my misses')} (${misses.length})</a>` : ''}<a class="btn ghost" href="#cards">${T('Who am I? cards')}</a></div>
     <nav class="chapters">${DB.modules.map((m, i) => { const p = prog[m.id];
       return `<a class="panel chap" href="#${m.id}"><img class="blot" src="${esc(DB.book.chapterArt[m.id])}" alt="" loading="lazy"><span class="chap-t"><small>${T('Chapter')} ${i + 1}</small><strong>${esc(m.title)}</strong>${hiTxt(m.hi)}<em>${esc(m.span)}</em></span><span class="score${p ? '' : ' no'}">${p ? `${T('Best')} ${p.best}/${p.of}` : T('Not tried')}</span></a>`; }).join('')}</nav>
-    <p class="foot">${T('For students of every age. Every fact is checked against the Constituent Assembly Debates, the Constitution’s text or official records, and names its source.')} ${LANG === 'hi' ? T('Hindi translation: names of books, direct quotes and quiz key terms stay in English, with the Hindi meaning in brackets. Numbers and dates are the same in both languages.') + ' ' : ''}Database v${esc(DB.meta.version)}.</p></main>`;
+    <p class="foot">${T('For students of every age. Every fact is checked against the Constituent Assembly Debates, the Constitution’s text or official records, and names its source.')} ${LANG === 'hi' ? T('Hindi translation: names of books, direct quotes and some key terms stay in English, with the Hindi meaning in brackets. Numbers and dates are the same in both languages.') + ' ' : ''}Database v${esc(DB.meta.version)}.</p></main>`;
 };
 
 // ── 3. Preamble pages drawn natively (no pasted posters) ──
